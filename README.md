@@ -2,7 +2,7 @@
 ### by Ifeanyi Omeata
 
 <details>
-  <summary>LAB 1 - Python Basics</summary>
+  <summary>LAB 1 - Python Basics - Print String & Comments</summary>
 
   ###
 
