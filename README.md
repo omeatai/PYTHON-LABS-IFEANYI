@@ -43,6 +43,22 @@
 
   <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/fba2bf40-62a5-4b42-845d-b803f8fc4959" width="720" height="400" /></a>
 
+  - [ ] NoneType: an object that does not contain any value
+    - [ ] None
+  - [ ] Numeric Types:
+    - [ ] int
+    - [ ] float
+    - [ ] complex
+  - [ ] Sequences:
+    - [ ] str
+    - [ ] list
+    - [ ] tuple
+    - [ ] range
+    - [ ] bytes
+    - [ ] bytearray
+  - [ ] Sets
+  - [ ] Mappings
+
   ### 1. Print String
   - [ ] Print "Hello World"
   ```py
