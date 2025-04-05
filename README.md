@@ -50,6 +50,7 @@
     - [ ] float
     - [ ] complex
     - [ ] binary
+    - [ ] hexadecimal
   - [ ] Sequences:
     - [ ] str
     - [ ] list
