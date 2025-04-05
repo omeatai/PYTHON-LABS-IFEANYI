@@ -49,6 +49,7 @@
     - [ ] int
     - [ ] float
     - [ ] complex
+    - [ ] binary
   - [ ] Sequences:
     - [ ] str
     - [ ] list
