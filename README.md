@@ -139,30 +139,24 @@
 
   <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/04e9fcee-7bad-4732-98dd-81a89a593f9c" width="720" height="400" /></a>
 
-  ### 1. Print String
-  - [ ] Print "Hello World"
+  ### 1. Floating Point to Integer
+  - [ ] Float to Integer
   ```py
-  print("Hello World!")
-  print("Python is easy!")
-
-  if __name__ == '__main__':
-      print('Completed!')
+  #Floating Point to Integer
+  a1=33.5
+  b1=int(a1)
+  print(b1)
+  print(type(b1))
   ```
 
-  ### 2. Use Comments
-  - [ ] Enter Comments above statements
+  ### 2. String to Floating Point
+  - [ ] String to Floating Point
   ```py
-  """This is a multi-line comment
-  Author: Ifeanyi omeata
-  Date: 2025
-  """
-  # This is a sample Python script.
-  print("Hello World!")
-  print("Python is easy!")
-  
-  # Press the green button in the gutter to run the script.
-  if __name__ == '__main__':
-      print('Completed!')
+  #String to Floating Point
+  a2="22.5"
+  b2=float(a2)
+  print(b2)
+  print(type(b2))
   ```
 
 </details>
