@@ -8,10 +8,14 @@
 
   <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/7d723f5f-921a-4eec-8c96-29b611d67a9e" width="720" height="400" /></a>
 
-  ### 1. Open IAM Console
-  - [ ] **Go to the AWS Management Console.**
-  - [ ] **Enter "IAM" in the search bar and go to the IAM console.**
-  - [ ] **Notice the IAM service is global and doesn't require region selection.**
+  ### 1. Print String
+  - [ ] Print "Hello World"
+  ```py
+  print("Hello World!")
+  
+  if __name__ == '__main__':
+      print('Completed!')
+  ```
 
   ### 2. Viewing Current Users
   - [ ] **On the left-hand side, click on "Users" to view the current user list.**
