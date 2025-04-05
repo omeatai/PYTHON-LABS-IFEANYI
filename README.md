@@ -67,25 +67,67 @@
   ### 1. NoneType
   - [ ] NoneType
   ```py
+  #NoneType
   a = None
   print(a)
   print(type(a))
   ```
 
-  ### 2. Use Comments
-  - [ ] Enter Comments above statements
+  ### 2. Numeric-Integer
+  - [ ] Integer
   ```py
-  """This is a multi-line comment
-  Author: Ifeanyi omeata
-  Date: 2025
-  """
-  # This is a sample Python script.
-  print("Hello World!")
-  print("Python is easy!")
-  
-  # Press the green button in the gutter to run the script.
-  if __name__ == '__main__':
-      print('Completed!')
+  #Numeric-Integer
+  a1 = 11
+  b1 = 100
+  c1 = -66
+  print(a1,b1,c1)
+  ```
+
+  ### 3. Numeric-Floating Point (float)
+  - [ ] Floating Point (float)
+  ```py
+  #Numeric-Floating Point (float)
+  a2 = 33.5
+  b2 = -25.8
+  print(a2,b2)
+  ```
+
+  ### 4. Numeric-Complex
+  - [ ] Complex
+  ```py
+  #Numeric-Complex
+  a3 = 3+5j
+  print(a3)
+  print(type(a3))
+  ```
+
+  ### 5. Numeric-Binary
+  - [ ] Binary
+  ```py
+  #Numeric-Binary
+  a4=0B1010
+  print(a4)
+  print(type(a4))
+  ```
+
+  ### 6. #Numeric-Hexadecimal
+  - [ ] Hexadecimal
+  ```py
+  #Numeric-Hexadecimal
+  a5=0XFF
+  print(a5)
+  print(type(a5))
+  ```
+
+  ### 7. Boolean
+  - [ ] Boolean
+  ```py
+  #Boolean
+  a6 = True
+  b6 = False
+  print(a6,b6)
+  print(9>8)
+  print(type(a6))
   ```
 
 </details>
