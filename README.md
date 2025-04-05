@@ -163,10 +163,10 @@
   - [ ] Integer to Binary
   ```py
   #Integer to Binary
-  a4=10
-  b4=bin(a4)
-  print(b4)
-  print(type(b4))
+  a3=10
+  b3=bin(a3)
+  print(b3)
+  print(type(b3))
   ```
 
 </details>
