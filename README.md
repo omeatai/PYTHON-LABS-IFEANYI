@@ -64,14 +64,12 @@
   - [ ] Sets - {2,4,6,8}
   - [ ] Mappings
 
-  ### 1. Print String
-  - [ ] Print "Hello World"
+  ### 1. NoneType
+  - [ ] NoneType
   ```py
-  print("Hello World!")
-  print("Python is easy!")
-
-  if __name__ == '__main__':
-      print('Completed!')
+  a = None
+  print(a)
+  print(type(a))
   ```
 
   ### 2. Use Comments
