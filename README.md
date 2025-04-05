@@ -159,6 +159,16 @@
   print(type(b2))
   ```
 
+  ### 3. Integer to Binary
+  - [ ] Integer to Binary
+  ```py
+  #Integer to Binary
+  a4=10
+  b4=bin(a4)
+  print(b4)
+  print(type(b4))
+  ```
+
 </details>
 
 
