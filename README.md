@@ -171,6 +171,24 @@
 
 </details>
 
+<details>
+  <summary>LAB 4 - Python Strings</summary>
+
+  ###
+
+  <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/6a5d3a7f-321b-4101-887c-cef7b147199c" width="720" height="400" /></a>
+
+  ### 1. Floating Point to Integer
+  - [ ] Float to Integer
+  ```py
+  #Floating Point to Integer
+  a1=33.5
+  b1=int(a1)
+  print(b1)
+  print(type(b1))
+  ```
+
+</details>
 
 
 
