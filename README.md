@@ -46,22 +46,22 @@
   - [ ] NoneType: an object that does not contain any value
     - [ ] None
   - [ ] Numeric Types:
-    - [ ] int
-    - [ ] float
-    - [ ] complex
-    - [ ] binary
-    - [ ] hexadecimal
+    - [ ] int - 100
+    - [ ] float - 22.6
+    - [ ] complex - 3+5j
+    - [ ] binary - 0B1010
+    - [ ] hexadecimal - 0XFF
   - [ ] Boolean Types:
     - [ ] True
     - [ ] False
   - [ ] Sequences:
-    - [ ] str
-    - [ ] list
-    - [ ] tuple
-    - [ ] range
+    - [ ] str - "Hello"
+    - [ ] list - [1,2,3,4]
+    - [ ] tuple - (5,6,7)
+    - [ ] range - range(0,9)
     - [ ] bytes
     - [ ] bytearray
-  - [ ] Sets
+  - [ ] Sets - {2,4,6,8}
   - [ ] Mappings
 
   ### 1. Print String
