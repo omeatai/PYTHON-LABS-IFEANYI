@@ -51,6 +51,9 @@
     - [ ] complex
     - [ ] binary
     - [ ] hexadecimal
+  - [ ] Boolean Types:
+    - [ ] True
+    - [ ] False
   - [ ] Sequences:
     - [ ] str
     - [ ] list
