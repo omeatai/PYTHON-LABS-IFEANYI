@@ -17,26 +17,23 @@
       print('Completed!')
   ```
 
-  ### 2. Viewing Current Users
-  - [ ] **On the left-hand side, click on "Users" to view the current user list.**
+  ### 2. Use Comments
+  - [ ] Enter Comments above statements
+  ```py
+  # This is a sample Python script.
+  print("Hello World!")
+  
+  # Press the green button in the gutter to run the script.
+  if __name__ == '__main__':
+      print('Completed!')
+  ```
 
   ### 3. Create a New IAM User and Set Password
   - [ ] **Click on "Create user."**
-  - [ ] **Enter a username (e.g., admin).**
-  - [ ] **Select "Provide user access to the AWS Management Console."**
-  - [ ] **Choose "I want to Create an IAM user" option.**
-  - [ ] **Choose "Custom password" and enter your password.**
-  - [ ] **Uncheck "Users must create a new password at next sign-in.”**
-  - [ ] **Click "Next".**
+
 
   ### 4. Create a User Group and Assign Permissions
   - [ ] **Choose "Add user to group."**
-  - [ ] **Click "Create group."**
-  - [ ] **Name the group (e.g., administration).**
-  - [ ] **Attach "AdministratorAccess" policy to the group.**
-  - [ ] **Click "Create user group".**
-  - [ ] **Add the user to the newly created admin group by selecting the group.**
-  - [ ] **Click "Next".**
 
 
 </details>
