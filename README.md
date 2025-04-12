@@ -1,5 +1,5 @@
-# PYTHON-LABS-IFEANYI
-### by Ifeanyi Omeata
+# PYTHON-DJANGO-FLASK-LABS-IFEANYI
+by Ifeanyi Omeata
 
 <details>
   <summary>LAB 1 - Python Basics - Print String & Comments</summary>
