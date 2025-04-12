@@ -2,7 +2,7 @@
 by Ifeanyi Omeata
 
 <details>
-  <summary>LAB 1 - Python Basics - Print String & Comments</summary>
+  <summary>1 - Python Basics - Print String & Comments</summary>
 
   ###
 
@@ -37,7 +37,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>LAB 2 - Python Datatypes</summary>
+  <summary>2 - Python Datatypes</summary>
 
   ###
 
@@ -133,7 +133,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>LAB 3 - Type Conversion</summary>
+  <summary>3 - Type Conversion</summary>
 
   ###
 
@@ -172,7 +172,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>LAB 4 - Python Strings</summary>
+  <summary>4 - Python Strings</summary>
 
   ###
 
