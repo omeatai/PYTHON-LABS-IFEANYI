@@ -237,6 +237,19 @@ by Ifeanyi Omeata
   I lovePython
   ```
 
+  ### 5. String Repetition
+
+  ```py
+  #repetition
+  s6="Hello"
+  s7=s6*3
+  print(s7)
+  ```
+
+  ```
+  HelloHelloHello
+  ```
+
 </details>
 
 
