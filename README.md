@@ -39,10 +39,6 @@ by Ifeanyi Omeata
 <details>
   <summary>2 - Python Datatypes</summary>
 
-  ###
-
-  <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/fba2bf40-62a5-4b42-845d-b803f8fc4959" width="720" height="400" /></a>
-
   - [ ] NoneType: an object that does not contain any value
     - [ ] None
   - [ ] Numeric Types:
@@ -135,10 +131,6 @@ by Ifeanyi Omeata
 <details>
   <summary>3 - Type Conversion</summary>
 
-  ###
-
-  <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/04e9fcee-7bad-4732-98dd-81a89a593f9c" width="720" height="400" /></a>
-
   ### 1. Floating Point to Integer
   - [ ] Float to Integer
   ```py
@@ -173,10 +165,6 @@ by Ifeanyi Omeata
 
 <details>
   <summary>4 - Python Strings</summary>
-
-  ###
-
-  <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/6a5d3a7f-321b-4101-887c-cef7b147199c" width="720" height="400" /></a>
 
   ### 1. Floating Point to Integer
   - [ ] Float to Integer
