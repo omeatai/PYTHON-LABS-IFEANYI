@@ -189,17 +189,50 @@ by Ifeanyi Omeata
   You are a nice person
   ```
 
-  ### 2. Sting Membership
-  - [ ] Float to Integer
+  ### 2. String Membership
+
   ```py
+  s1="You are a good person"
+  print(s1)
+
   #membership
   print("good" in s1)
   print("bad" in s1)
   ```
 
   ```
+  You are a good person
+
   True
   False
+  ```
+
+  ### 3. String Length
+
+  ```py
+  s1="You are a good person"
+  print(s1)
+  
+  #length
+  print(len(s1))
+  ```
+
+  ```
+  21
+  ```
+
+  ### 4. String Concatenation
+
+  ```py
+  #concatenation
+  s3="I love"
+  s4="Python"
+  s5=s3+s4
+  print(s5)
+  ```
+
+  ```
+  I lovePython
   ```
 
 </details>
