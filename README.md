@@ -1,6 +1,8 @@
 # PYTHON-DJANGO-FLASK-LABS-IFEANYI
 by Ifeanyi Omeata
 
+## Python
+
 <details>
   <summary>Print String</summary>
 
