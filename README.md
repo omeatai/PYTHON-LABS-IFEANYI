@@ -2,11 +2,7 @@
 by Ifeanyi Omeata
 
 <details>
-  <summary>1 - Python Basics - Print String & Comments</summary>
-
-  ###
-
-  <a href="" target="_blank"><img src="https://github.com/user-attachments/assets/f00b1657-9f37-42dd-a8ac-c46eb9d0078f" width="720" height="400" /></a>
+  <summary>Print String</summary>
 
   ### 1. Print String
   - [ ] Print "Hello World"
@@ -18,7 +14,12 @@ by Ifeanyi Omeata
       print('Completed!')
   ```
 
-  ### 2. Use Comments
+</details>
+
+<details>
+  <summary>Use Comments</summary>
+  
+  ### Use Comments
   - [ ] Enter Comments above statements
   ```py
   """This is a multi-line comment
@@ -37,7 +38,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>2 - Python Datatypes</summary>
+  <summary>Python Datatypes</summary>
 
   - [ ] NoneType: an object that does not contain any value
     - [ ] None
@@ -129,7 +130,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>3 - Type Conversion</summary>
+  <summary>Type Conversion</summary>
 
   ### 1. Floating Point to Integer
   - [ ] Float to Integer
@@ -164,7 +165,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>4 - Python Strings</summary>
+  <summary>Python Strings</summary>
 
   ### 1. Floating Point to Integer
   - [ ] Float to Integer
