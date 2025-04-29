@@ -169,6 +169,26 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Strings</summary>
 
+  ### 1. String Basics
+
+  ```py
+  s1="You are a good person"
+  print(s1)
+  
+  s2="""
+  You are a great person
+  You are a nice person
+  """
+  print(s2)
+  ```
+
+  ```txt
+  You are a good person
+
+  You are a great person
+  You are a nice person
+  ```
+
   ### 1. Floating Point to Integer
   - [ ] Float to Integer
   ```py
