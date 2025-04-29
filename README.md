@@ -182,21 +182,24 @@ by Ifeanyi Omeata
   print(s2)
   ```
 
-  ```txt
+  ```
   You are a good person
 
   You are a great person
   You are a nice person
   ```
 
-  ### 1. Floating Point to Integer
+  ### 2. Sting Membership
   - [ ] Float to Integer
   ```py
-  #Floating Point to Integer
-  a1=33.5
-  b1=int(a1)
-  print(b1)
-  print(type(b1))
+  #membership
+  print("good" in s1)
+  print("bad" in s1)
+  ```
+
+  ```
+  True
+  False
   ```
 
 </details>
