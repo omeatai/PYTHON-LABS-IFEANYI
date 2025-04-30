@@ -262,6 +262,8 @@ by Ifeanyi Omeata
   print(s1[0:6])
   print(s1[0:7:2])
   print(s1[-3:-1])
+  print(s1[15::-1])
+  print(s1[::-1])
   ```
 
   ```
@@ -271,6 +273,8 @@ by Ifeanyi Omeata
   You ar
   Yuae
   so
+  p doog a era uoY
+  nosrep doog a era uoY
   ```
 
 </details>
