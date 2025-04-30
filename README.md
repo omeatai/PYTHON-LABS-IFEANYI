@@ -250,7 +250,54 @@ by Ifeanyi Omeata
   HelloHelloHello
   ```
 
+  ### 6. String Slicing
+
+  ```py
+  s1="You are a good person"
+
+  #slicing
+  print(s1[0])
+  print(s1[0:])
+  print(s1[:8])
+  print(s1[0:7])
+  print(s1[0:7:2])
+  print(s1[-3:-1])
+  ```
+
+  ```
+  Y
+  You are a good person
+  You are
+  You are
+  Yuae
+  so
+  Completed!
+  ```
+
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
