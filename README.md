@@ -305,19 +305,7 @@ by Ifeanyi Omeata
   You are a tall person
   ```
 
-  ### 9. String Replace
-
-  ```py
-  #string replace
-  s3="You are a good person"
-  print(s3.replace("good","tall"))
-  ```
-
-  ```
-  You are a tall person
-  ```
-
-  ### 10. String Replace
+  ### 9. String Split
 
   ```py
   #string split
@@ -326,7 +314,19 @@ by Ifeanyi Omeata
   ```
 
   ```
-  You are a tall person
+  ['You', 'are', 'a', 'good', 'person']
+  ```
+
+  ### 10. String Join
+
+  ```py
+  #string join
+  s5="You are a good person"
+  print(" ".join(s5))
+  ```
+
+  ```
+  Y o u   a r e   a   g o o d   p e r s o n
   ```
 
 </details>
