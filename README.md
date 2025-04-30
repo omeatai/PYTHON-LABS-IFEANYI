@@ -329,6 +329,78 @@ by Ifeanyi Omeata
   Y o u   a r e   a   g o o d   p e r s o n
   ```
 
+  ### 11. String Format
+
+  ```py
+  #string format
+  s6="You are a good person"
+  print(f"Hey! {s6}")
+  ```
+
+  ```
+  Hey! You are a good person
+  ```
+
+  ### 12. String Count
+
+  ```py
+  #string count
+  s7="You are a good person"
+  print(s7.count("a"))
+  ```
+
+  ```
+  2
+  ```
+
+  ### 13. String Find
+
+  ```py
+  #string find
+  s8="You are a good person"
+  print(s8.find("good"))
+  ```
+
+  ```
+  10
+  ```
+
+  ### 14. String Join
+
+  ```py
+  #string join
+  s5="You are a good person"
+  print(" ".join(s5))
+  ```
+
+  ```
+  Y o u   a r e   a   g o o d   p e r s o n
+  ```
+
+  ### 15. String Join
+
+  ```py
+  #string join
+  s5="You are a good person"
+  print(" ".join(s5))
+  ```
+
+  ```
+  Y o u   a r e   a   g o o d   p e r s o n
+  ```
+
+  ### 16. String Join
+
+  ```py
+  #string join
+  s5="You are a good person"
+  print(" ".join(s5))
+  ```
+
+  ```
+  Y o u   a r e   a   g o o d   p e r s o n
+  ```
+
 </details>
 
 
