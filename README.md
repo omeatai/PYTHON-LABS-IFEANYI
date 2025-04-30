@@ -258,8 +258,8 @@ by Ifeanyi Omeata
   #slicing
   print(s1[0])
   print(s1[0:])
-  print(s1[:8])
-  print(s1[0:7])
+  print(s1[:7])
+  print(s1[0:6])
   print(s1[0:7:2])
   print(s1[-3:-1])
   ```
@@ -268,7 +268,7 @@ by Ifeanyi Omeata
   Y
   You are a good person
   You are
-  You are
+  You ar
   Yuae
   so
   Completed!
