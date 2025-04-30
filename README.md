@@ -277,6 +277,58 @@ by Ifeanyi Omeata
   nosrep doog a era uoY
   ```
 
+  ### 7. String Strip
+
+  ```py
+  #string strip
+  s2="   You are a good person   "
+  print(s2.strip())
+  print(s2.lstrip())
+  print(s2.rstrip())
+  ```
+
+  ```
+  You are a good person
+  You are a good person   
+     You are a good person
+  ```
+
+  ### 8. String Replace
+
+  ```py
+  #string replace
+  s3="You are a good person"
+  print(s3.replace("good","tall"))
+  ```
+
+  ```
+  You are a tall person
+  ```
+
+  ### 9. String Replace
+
+  ```py
+  #string replace
+  s3="You are a good person"
+  print(s3.replace("good","tall"))
+  ```
+
+  ```
+  You are a tall person
+  ```
+
+  ### 10. String Replace
+
+  ```py
+  #string split
+  s4="You are a good person"
+  print(s4.split())
+  ```
+
+  ```
+  You are a tall person
+  ```
+
 </details>
 
 
