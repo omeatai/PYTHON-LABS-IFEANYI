@@ -271,7 +271,6 @@ by Ifeanyi Omeata
   You ar
   Yuae
   so
-  Completed!
   ```
 
 </details>
