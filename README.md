@@ -359,10 +359,14 @@ by Ifeanyi Omeata
   #string find
   s8="You are a good person"
   print(s8.find("good"))
+  print(s8.find("good", 2, 14))
+  print(s8.find("good", 2, 10))
   ```
 
   ```
   10
+  10
+  -1
   ```
 
   ### 14. String Index
@@ -455,18 +459,6 @@ by Ifeanyi Omeata
   #string istitle
   s16="Person"
   print(s16.istitle())
-  ```
-
-  ```
-  True
-  ```
-
-  ### 15. String Isalnum
-
-  ```py
-  #string isalnum
-  s10="person123"
-  print(s10.isalnum())
   ```
 
   ```
