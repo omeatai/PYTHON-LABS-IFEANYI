@@ -365,28 +365,28 @@ by Ifeanyi Omeata
   10
   ```
 
-  ### 14. String Join
+  ### 14. String Index
 
   ```py
-  #string join
-  s5="You are a good person"
-  print(" ".join(s5))
+  #string index
+  s9="You are a good person"
+  print(s9.index("good"))
   ```
 
   ```
-  Y o u   a r e   a   g o o d   p e r s o n
+  10
   ```
 
-  ### 15. String Join
+  ### 15. String Isalnum
 
   ```py
-  #string join
-  s5="You are a good person"
-  print(" ".join(s5))
+  #string isalnum
+  s10="person123"
+  print(s10.isalnum())
   ```
 
   ```
-  Y o u   a r e   a   g o o d   p e r s o n
+  True
   ```
 
   ### 16. String Join
