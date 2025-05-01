@@ -389,16 +389,88 @@ by Ifeanyi Omeata
   True
   ```
 
-  ### 16. String Join
+  ### 16. String Isalpha
 
   ```py
-  #string join
-  s5="You are a good person"
-  print(" ".join(s5))
+  #string isalpha
+  s11="person"
+  print(s11.isalpha())
   ```
 
   ```
-  Y o u   a r e   a   g o o d   p e r s o n
+  True
+  ```
+
+  ### 17. String Isdigit
+
+  ```py
+  #string isdigit
+  s12="123"
+  print(s12.isdigit())
+  ```
+
+  ```
+  True
+  ```
+
+  ### 18. String Islower
+
+  ```py
+  #string islower
+  s13="person"
+  print(s13.islower())
+  ```
+
+  ```
+  True
+  ```
+
+  ### 19. String Isupper
+
+  ```py
+  #string isupper
+  s14="PERSON"
+  print(s14.isupper())
+  ```
+
+  ```
+  True
+  ```
+
+  ### 20. String Isspace
+
+  ```py
+  #string isspace
+  s15="  "
+  print(s15.isspace())
+  ```
+
+  ```
+  True
+  ```
+
+  ### 21. String Istitle
+
+  ```py
+  #string istitle
+  s16="Person"
+  print(s16.istitle())
+  ```
+
+  ```
+  True
+  ```
+
+  ### 15. String Isalnum
+
+  ```py
+  #string isalnum
+  s10="person123"
+  print(s10.isalnum())
+  ```
+
+  ```
+  True
   ```
 
 </details>
