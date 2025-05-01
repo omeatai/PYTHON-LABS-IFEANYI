@@ -157,7 +157,7 @@ by Ifeanyi Omeata
   <summary>Type Conversion</summary>
 
   ### 1. Floating Point to Integer
-  - [ ] Float to Integer
+
   ```py
   #Floating Point to Integer
   a1=33.5
@@ -166,8 +166,13 @@ by Ifeanyi Omeata
   print(type(b1))
   ```
 
+  ```
+  33
+  <class 'int'>
+  ```
+
   ### 2. String to Floating Point
-  - [ ] String to Floating Point
+
   ```py
   #String to Floating Point
   a2="22.5"
@@ -176,14 +181,24 @@ by Ifeanyi Omeata
   print(type(b2))
   ```
 
+  ```
+  22.5
+  <class 'float'>
+  ```
+
   ### 3. Integer to Binary
-  - [ ] Integer to Binary
+
   ```py
   #Integer to Binary
   a3=10
   b3=bin(a3)
   print(b3)
   print(type(b3))
+  ```
+
+  ```
+  0b1010
+  <class 'str'>
   ```
 
 </details>
