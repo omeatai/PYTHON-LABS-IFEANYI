@@ -82,29 +82,18 @@ by Ifeanyi Omeata
   ### 3. Numeric-Floating Point (float)
 
   ```py
-  #Numeric-Integer
-  a1 = 11
-  b1 = 100
-  c1 = -66
-  print(a1,b1,c1)
-  ```
-
-  ```
-  11 100 -66
-  ```
-
-
-  ### 3. Numeric-Floating Point (float)
-  - [ ] Floating Point (float)
-  ```py
   #Numeric-Floating Point (float)
   a2 = 33.5
   b2 = -25.8
   print(a2,b2)
   ```
 
+  ```
+  33.5 -25.8
+  ```
+
   ### 4. Numeric-Complex
-  - [ ] Complex
+
   ```py
   #Numeric-Complex
   a3 = 3+5j
@@ -112,8 +101,13 @@ by Ifeanyi Omeata
   print(type(a3))
   ```
 
+  ```
+  (3+5j)
+  <class 'complex'>
+  ```
+
   ### 5. Numeric-Binary
-  - [ ] Binary
+
   ```py
   #Numeric-Binary
   a4=0B1010
@@ -121,8 +115,13 @@ by Ifeanyi Omeata
   print(type(a4))
   ```
 
-  ### 6. #Numeric-Hexadecimal
-  - [ ] Hexadecimal
+  ```
+  10
+  <class 'int'>
+  ```
+
+  ### 6. Numeric-Hexadecimal
+
   ```py
   #Numeric-Hexadecimal
   a5=0XFF
@@ -130,8 +129,13 @@ by Ifeanyi Omeata
   print(type(a5))
   ```
 
+  ```
+  255
+  <class 'int'>
+  ```
+
   ### 7. Boolean
-  - [ ] Boolean
+
   ```py
   #Boolean
   a6 = True
@@ -139,6 +143,12 @@ by Ifeanyi Omeata
   print(a6,b6)
   print(9>8)
   print(type(a6))
+  ```
+
+  ```
+  True False
+  True
+  <class 'bool'>
   ```
 
 </details>
