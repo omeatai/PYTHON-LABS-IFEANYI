@@ -4,10 +4,10 @@ by Ifeanyi Omeata
 ## Python
 
 <details>
-  <summary>Print String</summary>
+  <summary>Python Basics</summary>
 
   ### 1. Print String
-  - [ ] Print "Hello World"
+
   ```py
   print("Hello World!")
   print("Python is easy!")
@@ -16,18 +16,20 @@ by Ifeanyi Omeata
       print('Completed!')
   ```
 
-</details>
+  ```
+  Hello World!
+  Python is easy!
+  Completed!
+  ```
 
-<details>
-  <summary>Use Comments</summary>
-  
-  ### Use Comments
-  - [ ] Enter Comments above statements
+  ### 2. Use Comments
+
   ```py
   """This is a multi-line comment
   Author: Ifeanyi omeata
   Date: 2025
   """
+  
   # This is a sample Python script.
   print("Hello World!")
   print("Python is easy!")
@@ -37,13 +39,46 @@ by Ifeanyi Omeata
       print('Completed!')
   ```
 
+  ```
+  Hello World!
+  Python is easy!
+  Completed!
+  ```
+
 </details>
 
 <details>
   <summary>Python Datatypes</summary>
 
+  ### 1. NoneType
   - [ ] NoneType: an object that does not contain any value
-    - [ ] None
+  
+  ```py
+  #NoneType
+  a = None
+  print(a)
+  print(type(a))
+  ```
+
+  ```
+  None
+  <class 'NoneType'>
+  ```
+
+  ### 2. Numeric-Integer
+
+  ```py
+  #Numeric-Integer
+  a1 = 11
+  b1 = 100
+  c1 = -66
+  print(a1,b1,c1)
+  ```
+
+  ```
+  11 100 -66
+  ```
+
   - [ ] Numeric Types:
     - [ ] int - 100
     - [ ] float - 22.6
@@ -62,15 +97,6 @@ by Ifeanyi Omeata
     - [ ] bytearray
   - [ ] Sets - {2,4,6,8}
   - [ ] Mappings
-
-  ### 1. NoneType
-  - [ ] NoneType
-  ```py
-  #NoneType
-  a = None
-  print(a)
-  print(type(a))
-  ```
 
   ### 2. Numeric-Integer
   - [ ] Integer
