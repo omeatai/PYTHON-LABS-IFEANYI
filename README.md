@@ -506,8 +506,135 @@ by Ifeanyi Omeata
 
 
 
+<details>
+  <summary>Python Lists</summary>
 
+  ### 1. List Basics
 
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 2. List Length
+
+  ```py
+  # List length
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(len(my_list))
+  ```
+
+  ```
+  5
+  ```
+
+  ### 3. List Index
+
+  ```py
+  # List index
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list[0], my_list[2])
+  ```
+
+  ```
+  10 Ifeanyi
+  ```
+
+  ### 4. List Slicing
+
+  ```py
+  # List slicing
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list[2:5])
+  ```
+
+  ```
+  ['Ifeanyi', -10, 30.5]
+  ```
+
+  ### 5. List Multiplication
+
+  ```py
+  # List multiplication
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list * 2)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5, 10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 6. List Extend
+
+  ```py
+  # List extend
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.extend([1, 2, 3])
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5, 1, 2, 3]
+  ```
+
+  ### 7. List Append
+
+  ```py
+  # List append
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.append("James")
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5, 'James']
+  ```
+
+  ### 8. List Insert
+
+  ```py
+  # List insert
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.insert(0, 99)
+  print(my_list)
+  ```
+
+  ```
+  [99, 10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 9. List Remove
+
+  ```py
+  # List remove
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.remove(30.5)
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10]
+  ```
+
+  ### 10. List Pop
+
+  ```py
+  # List pop
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.pop()
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10]
+  ```
+
+</details>
 
 
 
