@@ -817,76 +817,17 @@ by Ifeanyi Omeata
   {10, 'Ifeanyi', 20, -10, 30.5}
   ```
 
-  ### 24. List Max and min
+  ### 24. Set to List
 
   ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
+  # Set to List
+  my_set = {10, 20, "Ifeanyi", -10, 30.5}
+  my_list = list(my_set)
+  print(my_list)
   ```
 
   ```
-  30.5 -10
-  ```
-
-  ### 24. List Max and min
-
-  ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
-  ```
-
-  ```
-  30.5 -10
-  ```
-
-  ### 24. List Max and min
-
-  ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
-  ```
-
-  ```
-  30.5 -10
-  ```
-
-  ### 24. List Max and min
-
-  ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
-  ```
-
-  ```
-  30.5 -10
-  ```
-
-  ### 24. List Max and min
-
-  ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
-  ```
-
-  ```
-  30.5 -10
-  ```
-
-  ### 24. List Max and min
-
-  ```py
-  # List Max and min
-  my_list = [10, 20, -10, 30.5]
-  print(max(my_list), min(my_list))
-  ```
-
-  ```
-  30.5 -10
+  [20, 'Ifeanyi', -10, 10, 30.5]
   ```
 
 </details>
