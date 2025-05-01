@@ -634,6 +634,83 @@ by Ifeanyi Omeata
   [10, 20, 'Ifeanyi', -10]
   ```
 
+  ### 11. List Clear
+
+  ```py
+  # List clear
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.clear()
+  print(my_list)
+  ```
+
+  ```
+  []
+  ```
+
+  ### 12. List Sort
+
+  ```py
+  # List sort
+  my_list = ["10", "20", "Ifeanyi", "-10", "30.5"]
+  my_list.sort()
+  print(my_list)
+  ```
+
+  ```
+  ['-10', '10', '20', '30.5', 'Ifeanyi']
+  ```
+
+  ### 13. List Reverse-Sort
+
+  ```py
+  # List reverse-sort
+  my_list = ["10", "20", "Ifeanyi", "-10", "30.5"]
+  my_list.sort(reverse=True)
+  print(my_list)
+  ```
+
+  ```
+  ['Ifeanyi', '30.5', '20', '10', '-10']
+  ```
+
+  ### 14. List Reverse
+
+  ```py
+  # List reverse
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_list.reverse()
+  print(my_list)
+  ```
+
+  ```
+  [30.5, -10, 'Ifeanyi', 20, 10]
+  ```
+
+  ### 15. List Copy
+
+  ```py
+  # List copy
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_new_list = my_list.copy()
+  print(my_new_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
 </details>
 
 
