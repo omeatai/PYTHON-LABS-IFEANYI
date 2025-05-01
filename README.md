@@ -79,27 +79,8 @@ by Ifeanyi Omeata
   11 100 -66
   ```
 
-  - [ ] Numeric Types:
-    - [ ] int - 100
-    - [ ] float - 22.6
-    - [ ] complex - 3+5j
-    - [ ] binary - 0B1010
-    - [ ] hexadecimal - 0XFF
-  - [ ] Boolean Types:
-    - [ ] True
-    - [ ] False
-  - [ ] Sequences:
-    - [ ] str - "Hello"
-    - [ ] list - [1,2,3,4]
-    - [ ] tuple - (5,6,7)
-    - [ ] range - range(0,9)
-    - [ ] bytes
-    - [ ] bytearray
-  - [ ] Sets - {2,4,6,8}
-  - [ ] Mappings
+  ### 3. Numeric-Floating Point (float)
 
-  ### 2. Numeric-Integer
-  - [ ] Integer
   ```py
   #Numeric-Integer
   a1 = 11
@@ -107,6 +88,11 @@ by Ifeanyi Omeata
   c1 = -66
   print(a1,b1,c1)
   ```
+
+  ```
+  11 100 -66
+  ```
+
 
   ### 3. Numeric-Floating Point (float)
   - [ ] Floating Point (float)
