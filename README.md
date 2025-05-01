@@ -711,13 +711,351 @@ by Ifeanyi Omeata
   30.5 -10
   ```
 
+  ### 17. List to Tuple
+
+  ```py
+  # List to Tuple
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_tuple = tuple(my_list)
+  print(my_tuple)
+  ```
+
+  ```
+  (10, 20, 'Ifeanyi', -10, 30.5)
+  ```
+
+  ### 18. Tuple to List
+
+  ```py
+  # Tuple to List
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  my_list = list(my_tuple)
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 19. List to String
+
+  ```py
+  # List to String
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_string = str(my_list)
+  print(my_string)
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 16. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
 </details>
 
+<details>
+  <summary>Python Tuple</summary>
 
+  ### 1. Tuple Basics
 
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
 
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
 
+  ### 1. Tuple Basics
 
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 1. Tuple Basics
+
+  ```py
+  # List basics
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+</details>
 
 
 
