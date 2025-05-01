@@ -742,15 +742,82 @@ by Ifeanyi Omeata
   ```py
   # List to String
   my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  my_string = str(my_list)
+  my_string = ", ".join(str(item) for item in my_list)
   print(my_string)
   ```
 
   ```
-  30.5 -10
+  10, 20, Ifeanyi, -10, 30.5
   ```
 
-  ### 16. List Max and min
+  ### 20. String to List
+
+  ```py
+  # String to List
+  my_string = "10, 20, Ifeanyi, -10, 30.5"
+  my_list = my_string.split(", ")
+  print(my_list)
+  ```
+
+  ```
+  ['10', '20', 'Ifeanyi', '-10', '30.5']
+  ```
+
+  ### 21. List to Dictionary
+
+  ```py
+  # List to Dictionary
+  my_list = [("a", 10), ("b", 20), ("c", 30)]
+  my_dict = dict(my_list)
+  print(my_dict)
+
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_dict = {item: index for index, item in enumerate(my_list)}
+  print(my_dict)
+  ```
+
+  ```
+  {'a': 10, 'b': 20, 'c': 30}
+  {10: 0, 20: 1, 'Ifeanyi': 2, -10: 3, 30.5: 4}
+  ```
+
+  ### 22. Dictionary to List
+
+  ```py
+  # Dictionary to List
+  my_dict = {"a": 10, "b": 20, "c": 30}
+  my_list = list(my_dict.items())
+  print(my_list)
+  
+  my_dict = {"a": 10, "b": 20, "c": 30}
+  my_list = list(my_dict.values())
+  print(my_list)
+  
+  my_dict = {"a": 10, "b": 20, "c": 30}
+  my_list = list(my_dict.keys())
+  print(my_list)
+  ```
+
+  ```
+  [('a', 10), ('b', 20), ('c', 30)]
+  [10, 20, 30]
+  ['a', 'b', 'c']
+  ```
+
+  ### 23. List to Set
+
+  ```py
+  # List to Set
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_set = set(my_list)
+  print(my_set)
+  ```
+
+  ```
+  {10, 'Ifeanyi', 20, -10, 30.5}
+  ```
+
+  ### 24. List Max and min
 
   ```py
   # List Max and min
@@ -762,7 +829,7 @@ by Ifeanyi Omeata
   30.5 -10
   ```
 
-  ### 16. List Max and min
+  ### 24. List Max and min
 
   ```py
   # List Max and min
@@ -774,7 +841,7 @@ by Ifeanyi Omeata
   30.5 -10
   ```
 
-  ### 16. List Max and min
+  ### 24. List Max and min
 
   ```py
   # List Max and min
@@ -786,7 +853,7 @@ by Ifeanyi Omeata
   30.5 -10
   ```
 
-  ### 16. List Max and min
+  ### 24. List Max and min
 
   ```py
   # List Max and min
@@ -798,7 +865,19 @@ by Ifeanyi Omeata
   30.5 -10
   ```
 
-  ### 16. List Max and min
+  ### 24. List Max and min
+
+  ```py
+  # List Max and min
+  my_list = [10, 20, -10, 30.5]
+  print(max(my_list), min(my_list))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 24. List Max and min
 
   ```py
   # List Max and min
