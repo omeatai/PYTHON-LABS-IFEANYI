@@ -926,16 +926,132 @@ by Ifeanyi Omeata
   ### 1. Tuple Basics
 
   ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
+  # Tuple basics
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  print(my_tuple)
   ```
 
   ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
+  (10, 20, 'Ifeanyi', -10, 30.5)
   ```
 
-  ### 1. Tuple Basics
+  ### 2. Tuple Count
+
+  ```py
+  # Tuple Count
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5, 10, 20)
+  print(my_tuple.count(10))
+  ```
+
+  ```
+  2
+  ```
+
+  ### 3. Tuple Length
+
+  ```py
+  # Tuple Length
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5, 10, 20)
+  print(len(my_tuple))
+  ```
+
+  ```
+  7
+  ```
+
+  ### 4. Tuple Index
+
+  ```py
+  # Tuple Index
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5, 10, 20)
+  print(my_tuple.index(20))
+  ```
+
+  ```
+  1
+  ```
+
+  ### 5. Tuple Max & Min
+
+  ```py
+  # Tuple Max & Min
+  my_tuple = (10, 20, -10, 30.5, 10, 20)
+  print(max(my_tuple), min(my_tuple))
+  ```
+
+  ```
+  30.5 -10
+  ```
+
+  ### 6. Tuple Sum
+
+  ```py
+  # Tuple Sum
+  my_tuple = (10, 20, -10, 30.5, 10, 20)
+  print(sum(my_tuple))
+  ```
+
+  ```
+  80.5
+  ```
+
+  ### 7. Tuple Sorted
+
+  ```py
+  # Tuple Sorted
+  my_tuple = (10, 20, -10, 30.5, 10, 20)
+  print(sorted(my_tuple))
+  print(tuple(sorted(my_tuple)))
+  print(sorted(my_tuple, reverse=True))
+  print(tuple(sorted(my_tuple, reverse=True)))
+  ```
+
+  ```
+  [-10, 10, 10, 20, 20, 30.5]
+  (-10, 10, 10, 20, 20, 30.5)
+  [30.5, 20, 20, 10, 10, -10]
+  (30.5, 20, 20, 10, 10, -10)
+  ```
+
+  ### 8. Tuple Reversed
+
+  ```py
+  # Tuple Reversed
+  my_tuple = (10, 20, -10, 30.5, 10, 20)
+  print(reversed(my_tuple))
+  print(tuple(reversed(my_tuple)))
+  ```
+
+  ```
+  <reversed object at 0x00000169C2BFD060>
+  (20, 10, 30.5, -10, 20, 10)
+  ```
+
+  ### 9. Tuple Slicing
+
+  ```py
+  # Tuple Slicing
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5, 10, 20)
+  print(my_tuple[0:3])
+  ```
+
+  ```
+  (10, 20, 'Ifeanyi')
+  ```
+
+  ### 10. Tuple Membership
+
+  ```py
+  # Tuple Membership
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5, 10, 20)
+  print(10 in my_tuple)
+  ```
+
+  ```
+  True
+  ```
+
+  ### 11. Tuple Basics
 
   ```py
   # List basics
@@ -947,7 +1063,46 @@ by Ifeanyi Omeata
   [10, 20, 'Ifeanyi', -10, 30.5]
   ```
 
-  ### 1. Tuple Basics
+  ### 12. Tuple Unpacking
+
+  ```py
+  # Tuple Unpacking
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  a, b, c, d, e = my_tuple
+  print(a, b, c, d, e)
+  ```
+
+  ```
+  10 20 Ifeanyi -10 30.5
+  ```
+
+  ### 13. Tuple to List
+
+  ```py
+  # Tuple to List
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  my_list = list(my_tuple)
+  print(my_list)
+  ```
+
+  ```
+  [10, 20, 'Ifeanyi', -10, 30.5]
+  ```
+
+  ### 14. List to Tuple
+
+  ```py
+  # List to Tuple
+  my_list = [10, 20, "Ifeanyi", -10, 30.5]
+  my_tuple = tuple(my_list)
+  print(my_tuple)
+  ```
+
+  ```
+  (10, 20, 'Ifeanyi', -10, 30.5)
+  ```
+
+  ### 15. Tuple Basics
 
   ```py
   # List basics
@@ -959,156 +1114,13 @@ by Ifeanyi Omeata
   [10, 20, 'Ifeanyi', -10, 30.5]
   ```
 
-  ### 1. Tuple Basics
+  ### 16. Tuple to String
 
   ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
+  # Tuple to String
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  my_string = str(my_tuple)
+  print(my_string)
   ```
 
   ```
