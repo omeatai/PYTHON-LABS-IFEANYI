@@ -1543,15 +1543,25 @@ by Ifeanyi Omeata
 
 <details>
   <summary>Python Dictionary</summary>
-
-  - [ ] 1. Range Basics
-  - [ ] 2. Range with start, stop
-  - [ ] 3. Range with start, stop, step
-  - [ ] 4. Range Length
-  - [ ] 5. Range to List
-  - [ ] 6. Range to Tuple
-  - [ ] 7. Range to Set
-  - [ ] 8. Range to Dictionary
+  
+  - [ ] 1. Dictionary Basics
+  - [ ] 2. Dictionary Length
+  - [ ] 3. Dictionary Access
+  - [ ] 4. Dictionary Get
+  - [ ] 5. Dictionary Items
+  - [ ] 6. Dictionary Keys
+  - [ ] 7. Dictionary Values
+  - [ ] 8. Dictionary Clear
+  - [ ] 9. Dictionary Copy
+  - [ ] 10. Dictionary Fromkeys
+  - [ ] 11. Dictionary Has_key
+  - [ ] 12. Dictionary Pop
+  - [ ] 13. Dictionary Popitem
+  - [ ] 14. Dictionary Setdefault
+  - [ ] 15. Dictionary Update
+  - [ ] 16. Dictionary with Nested Dictionaries
+  - [ ] 17. Dictionary with list of Tuples
+  - [ ] 18. Dictionary with list of Dictionaries
 
   ### 1. Dictionary Basics
 
