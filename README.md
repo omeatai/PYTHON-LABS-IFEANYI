@@ -1102,77 +1102,82 @@ by Ifeanyi Omeata
   (10, 20, 'Ifeanyi', -10, 30.5)
   ```
 
-  ### 15. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 16. Tuple to String
+  ### 15. Tuple to String
 
   ```py
   # Tuple to String
   my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
-  my_string = str(my_tuple)
+  my_string = ", ".join(str(item) for item in my_tuple)
   print(my_string)
   ```
 
   ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
+  10, 20, Ifeanyi, -10, 30.5
   ```
 
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
+  ### 16. String to Tuple
 
   ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
+  # String to Tuple
+  my_string = "10, 20, Ifeanyi, -10, 30.5"
+  my_tuple = tuple(my_string.split(", "))
+  print(my_tuple)
   ```
 
   ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
+  ('10', '20', 'Ifeanyi', '-10', '30.5')
   ```
 
-  ### 1. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 1. Tuple Basics
+  ### 17. Tuple to Dictionary
 
   ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
+  # Tuple to Dictionary
+  my_tuple = (("a", 10), ("b", 20), ("c", 30))
+  my_dict = dict(my_tuple)
+  print(my_dict)
   ```
 
   ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
+  {'a': 10, 'b': 20, 'c': 30}
+  ```
+
+  ### 18. Dictionary to Tuple
+
+  ```py
+  # Dictionary to Tuple
+  my_dict = {"a": 10, "b": 20, "c": 30}
+  my_tuple = tuple(my_dict.items())
+  print(my_tuple)
+  ```
+
+  ```
+  (('a', 10), ('b', 20), ('c', 30))
+  ```
+
+  ### 19. Tuple to Set
+
+  ```py
+  # Tuple to Set
+  my_tuple = (10, 20, "Ifeanyi", -10, 30.5)
+  my_set = set(my_tuple)
+  print(my_set)
+  ```
+
+  ```
+  {10, 20, 'Ifeanyi', -10, 30.5}
+  ```
+
+  ### 20. Set to Tuple
+
+  ```py
+  # Set to Tuple
+  my_set = {10, 20, "Ifeanyi", -10, 30.5}
+  my_tuple = tuple(my_set)
+  print(my_tuple)
+  ```
+
+  ```
+  (20, 'Ifeanyi', -10, 10, 30.5)
   ```
 
 </details>
