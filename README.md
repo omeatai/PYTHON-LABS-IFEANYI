@@ -572,6 +572,31 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Lists</summary>
 
+  - [ ] 1. List Basics
+  - [ ] 2. List Length
+  - [ ] 3. List Index
+  - [ ] 4. List Slicing
+  - [ ] 5. List Multiplication
+  - [ ] 6. List Extend
+  - [ ] 7. List Append
+  - [ ] 8. List Insert
+  - [ ] 9. List Remove
+  - [ ] 10. List Pop
+  - [ ] 11. List Clear
+  - [ ] 12. List Sort
+  - [ ] 13. List Reverse-Sort
+  - [ ] 14. List Reverse
+  - [ ] 15. List Copy
+  - [ ] 16. List Max and min
+  - [ ] 17. List to Tuple
+  - [ ] 18. Tuple to List
+  - [ ] 19. List to String
+  - [ ] 20. String to List
+  - [ ] 21. List to Dictionary
+  - [ ] 22. Dictionary to List
+  - [ ] 23. List to Set
+  - [ ] 24. Set to List
+
   ### 1. List Basics
 
   ```py
