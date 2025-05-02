@@ -1204,10 +1204,225 @@ by Ifeanyi Omeata
 </details>
 
 
+<details>
+  <summary>Python Tuple</summary>
+
+  - [ ] 1. Tuple Basics
+  - [ ] 2. Tuple Count
+  - [ ] 3. Tuple Length
+  - [ ] 4. Tuple Index
+  - [ ] 5. Tuple Max & Min
+  - [ ] 6. Tuple Sum
+  - [ ] 7. Tuple Sorted
+  - [ ] 8. Tuple Reversed
+  - [ ] 9. Tuple Slicing
+  - [ ] 10. Tuple Membership
+  - [ ] 11. Tuple Basics
+  - [ ] 12. Tuple Unpacking
+  - [ ] 13. Tuple to List
+  - [ ] 14. List to Tuple
+  - [ ] 15. Tuple to String
+  - [ ] 16. String to Tuple
+  - [ ] 17. Tuple to Dictionary
+  - [ ] 18. Dictionary to Tuple
+  - [ ] 19. Tuple to Set
+  - [ ] 20. Set to Tuple
+
+  ### 1. Set Basics
+
+  ```py
+  # Set Basics
+  my_set = {1, 2, 3, 4, 5}
+  print(my_set)
+  ```
+
+  ```
+  {1, 2, 3, 4, 5}
+  ```
+
+  ### 2. Set Add
+
+  ```py
+  # Set Add
+  my_set = {1, 2, 3, 4, 5}
+  my_set.add(6)
+  print(my_set)
+  ```
+
+  ```
+  {1, 2, 3, 4, 5, 6}
+  ```
+
+  ### 3. Set Remove
+
+  ```py
+  # Set Remove
+  my_set = {1, 2, 3, 4, 5}
+  my_set.remove(2)
+  print(my_set)
+  ```
+
+  ```
+  {1, 3, 4, 5}
+  ```
+
+  ### 4. Set Pop
+
+  ```py
+  # Set Pop
+  my_set = {1, 2, 3, 4, 5}
+  my_set.pop()
+  print(my_set)
+  ```
+
+  ```
+  {2, 3, 4, 5}
+  ```
+
+  ### 5. Set Clear
+
+  ```py
+  # Set Clear
+  my_set = {1, 2, 3, 4, 5}
+  my_set.clear()
+  print(my_set)
+  ```
+
+  ```
+  set()
+  ```
+
+  ### 6. Set Length
+
+  ```py
+  # Set Length
+  my_set = {1, 2, 3, 4, 5}
+  print(len(my_set))
+  ```
+
+  ```
+  5
+  ```
+
+  ### 7. Set Update
+
+  ```py
+  # Set Update
+  my_set = {1, 2, 3, 4, 5}
+  my_set.update([4, 5, 6, 7, 8, 9, 10])
+  print(my_set)
+  ```
+
+  ```
+  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+  ```
+
+  ### 8. Set Union
+
+  ```py
+  # Set Union
+  my_set = {1, 2, 3, 4, 5}
+  my_set2 = {4, 5, 6, 7, 8, 9, 10}
+  print(my_set.union(my_set2))
+  ```
+
+  ```
+  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+  ```
+
+  ### 9. Set Intersection
+
+  ```py
+  # Set Intersection
+  my_set = {1, 2, 3, 4, 5}
+  my_set2 = {4, 5, 6, 7, 8, 9, 10}
+  print(my_set.intersection(my_set2))
+  ```
+
+  ```
+  {4, 5}
+  ```
+
+  ### 10. Set Difference
+
+  ```py
+  # Set Difference
+  my_set = {1, 2, 3, 4, 5}
+  my_set2 = {4, 5, 6, 7, 8, 9, 10}
+  print(my_set.difference(my_set2))
+  ```
+
+  ```
+  {1, 2, 3}
+  ```
+
+  ### 11. Set Symmetric Difference
+
+  ```py
+  # Set Symmetric Difference
+  my_set = {1, 2, 3, 4, 5}
+  my_set2 = {4, 5, 6, 7, 8, 9, 10}
+  print(my_set.symmetric_difference(my_set2))
+  ```
+
+  ```
+  {1, 2, 3, 6, 7, 8, 9, 10}
+  ```
+
+  ### 12. Set Subset
+
+  ```py
+  # Set Subset
+  my_set = {1, 2, 3, 4, 5}
+  my_set2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+  print(my_set.issubset(my_set2))
+  ```
+
+  ```
+  True
+  ```
+
+  ### 13. Set Superset
+
+  ```py
+  # Set Superset
+  my_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+  my_set2 = {1, 2, 3, 4, 5}
+  print(my_set.issuperset(my_set2))
+  ```
+
+  ```
+  True
+  ```
+
+  ### 14. Set to Frozen Set
+
+  ```py
+  # Set to Frozen Set
+  my_set = {1, 2, 3, 4, 5}
+  my_frozen_set = frozenset(my_set)
+  print(my_frozen_set, type(my_frozen_set))
+  ```
+
+  ```
+  frozenset({1, 2, 3, 4, 5}) <class 'frozenset'>
+  ```
+
+  ### 15. Frozen Set to Set
+
+  ```py
+  # Frozen Set to Set
+  my_frozen_set = frozenset({1, 2, 3, 4, 5})
+  my_set = set(my_frozen_set)
+  print(my_set, type(my_set))
+  ```
+
+  ```
+  {1, 2, 3, 4, 5} <class 'set'>
+  ```
 
 
-
-
+</details>
 
 
 
