@@ -1407,6 +1407,138 @@ by Ifeanyi Omeata
 </details>
 
 
+<details>
+  <summary>Python Range</summary>
+
+  - [ ] 1. Range Basics
+  - [ ] 2. Range with start, stop
+  - [ ] 3. Range with start, stop, step
+  - [ ] 4. Range Length
+  - [ ] 5. Range to List
+  - [ ] 6. Range to Tuple
+  - [ ] 7. Range to Set
+  - [ ] 8. Range to Dictionary
+
+  ### 1. Range Basics
+
+  ```py
+  # Range Basics
+  my_range = range(5)
+  for i in my_range:
+      print(i)
+  ```
+
+  ```
+  0
+  1
+  2
+  3
+  4
+  ```
+
+  ### 2. Range with start, stop
+
+  ```py
+  # Range with start, stop
+  my_range = range(1, 10)
+  for i in my_range:
+      print(i)
+  ```
+
+  ```
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  ```
+
+  ### 3. Range with start, stop, step
+
+  ```py
+  # Range with start, stop, step
+  my_range = range(1, 10, 2)
+  for i in my_range:
+      print(i)
+  ```
+
+  ```
+  1
+  3
+  5
+  7
+  9
+  ```
+
+  ### 4. Range Length
+
+  ```py
+  # Range Length
+  my_range = range(5)
+  print(len(my_range))
+  ```
+
+  ```
+  5
+  ```
+
+  ### 5. Range to List
+
+  ```py
+  # Range to List
+  my_range = range(5)
+  my_list = list(my_range)
+  print(my_list)
+  ```
+
+  ```
+  [0, 1, 2, 3, 4]
+  ```
+
+  ### 6. Range to Tuple
+
+  ```py
+  # Range to Tuple
+  my_range = range(5)
+  my_tuple = tuple(my_range)
+  print(my_tuple)
+  ```
+
+  ```
+  (0, 1, 2, 3, 4)
+  ```
+
+  ### 7. Range to Set
+
+  ```py
+  # Range to Set
+  my_range = range(5)
+  my_set = set(my_range)
+  print(my_set)
+  ```
+
+  ```
+  {0, 1, 2, 3, 4}
+  ```
+
+  ### 8. Range to Dictionary
+
+  ```py
+  # Range to Dictionary
+  my_range = range(5,10,2)
+  my_dict = dict((index,item) for index,item in enumerate(my_range))
+  print(my_dict)
+  ```
+
+  ```
+  {0: 5, 1: 7, 2: 9}
+  ```
+
+</details>
 
 
 
