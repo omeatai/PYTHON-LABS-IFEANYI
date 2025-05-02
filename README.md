@@ -165,9 +165,9 @@ by Ifeanyi Omeata
 <details>
   <summary>Type Conversion</summary>
 
-- [ ] 1. Floating Point to Integer
-- [ ] 2. String to Floating Point
-- [ ] 3. Integer to Binary
+  - [ ] 1. Floating Point to Integer
+  - [ ] 2. String to Floating Point
+  - [ ] 3. Integer to Binary
 
   ### 1. Floating Point to Integer
 
