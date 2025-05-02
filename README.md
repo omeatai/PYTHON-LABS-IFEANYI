@@ -923,6 +923,27 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Tuple</summary>
 
+  - [ ] 1. Tuple Basics
+  - [ ] 2. Tuple Count
+  - [ ] 3. Tuple Length
+  - [ ] 4. Tuple Index
+  - [ ] 5. Tuple Max & Min
+  - [ ] 6. Tuple Sum
+  - [ ] 7. Tuple Sorted
+  - [ ] 8. Tuple Reversed
+  - [ ] 9. Tuple Slicing
+  - [ ] 10. Tuple Membership
+  - [ ] 11. Tuple Basics
+  - [ ] 12. Tuple Unpacking
+  - [ ] 13. Tuple to List
+  - [ ] 14. List to Tuple
+  - [ ] 15. Tuple to String
+  - [ ] 16. String to Tuple
+  - [ ] 17. Tuple to Dictionary
+  - [ ] 18. Dictionary to Tuple
+  - [ ] 19. Tuple to Set
+  - [ ] 20. Set to Tuple
+
   ### 1. Tuple Basics
 
   ```py
