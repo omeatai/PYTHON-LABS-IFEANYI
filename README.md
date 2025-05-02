@@ -1207,26 +1207,21 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Tuple</summary>
 
-  - [ ] 1. Tuple Basics
-  - [ ] 2. Tuple Count
-  - [ ] 3. Tuple Length
-  - [ ] 4. Tuple Index
-  - [ ] 5. Tuple Max & Min
-  - [ ] 6. Tuple Sum
-  - [ ] 7. Tuple Sorted
-  - [ ] 8. Tuple Reversed
-  - [ ] 9. Tuple Slicing
-  - [ ] 10. Tuple Membership
-  - [ ] 11. Tuple Basics
-  - [ ] 12. Tuple Unpacking
-  - [ ] 13. Tuple to List
-  - [ ] 14. List to Tuple
-  - [ ] 15. Tuple to String
-  - [ ] 16. String to Tuple
-  - [ ] 17. Tuple to Dictionary
-  - [ ] 18. Dictionary to Tuple
-  - [ ] 19. Tuple to Set
-  - [ ] 20. Set to Tuple
+  - [ ] 1. Set Basics
+  - [ ] 2. Set Add
+  - [ ] 3. Set Remove
+  - [ ] 4. Set Pop
+  - [ ] 5. Set Clear
+  - [ ] 6. Set Length
+  - [ ] 7. Set Update
+  - [ ] 8. Set Union
+  - [ ] 9. Set Intersection
+  - [ ] 10. Set Difference
+  - [ ] 11. Set Symmetric Difference
+  - [ ] 12. Set Subset
+  - [ ] 13. Set Superset
+  - [ ] 14. Set to Frozen Set
+  - [ ] 15. Frozen Set to Set
 
   ### 1. Set Basics
 
