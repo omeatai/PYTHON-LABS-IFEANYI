@@ -1668,92 +1668,141 @@ by Ifeanyi Omeata
   ```py
   # Dictionary fromkeys
   my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
-  my_dict_fromkeys = my_dict.fromkeys(["name", "age", "city", "is_student"])
-  print(my_dict_fromkeys)
+  
+  my_dict_fromkeys = dict.fromkeys(["name", "age", "city", "is_student"])
+  print("Default fromkeys:", my_dict_fromkeys)
+  
+  my_dict_fromkeys_with_value = dict.fromkeys(["name", "age", "city", "is_student"], "default")
+  print("fromkeys with default value:", my_dict_fromkeys_with_value)
   ```
 
   ```
-
+  Default fromkeys: {'name': None, 'age': None, 'city': None, 'is_student': None}
+  fromkeys with default value: {'name': 'default', 'age': 'default', 'city': 'default', 'is_student': 'default'}
   ```
 
-  ### 1. Dictionary Basics
+  ### 11. Dictionary Has_key
 
   ```py
-
+  # Dictionary has_key
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print("name" in my_dict)
   ```
 
   ```
-
+  True
   ```
 
-  ### 1. Dictionary Basics
+  ### 12. Dictionary Pop
 
   ```py
-
+  # Dictionary pop
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict.pop("name")
+  print(my_dict)
   ```
 
   ```
-
+  {'age': 25, 'city': 'New York', 'is_student': True}
   ```
 
-  ### 1. Dictionary Basics
+  ### 13. Dictionary Popitem
 
   ```py
-
+  # Dictionary popitem
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict.popitem()
+  print(my_dict)
   ```
 
   ```
-
+  {'name': 'John', 'age': 25, 'city': 'New York'}
   ```
 
-  ### 1. Dictionary Basics
+  ### 14. Dictionary Setdefault
 
   ```py
-
+  # Dictionary setdefault
+  my_dict = {"age": 25, "city": "New York", "is_student": True}
+  my_dict.setdefault("name", "Unknown")
+  print(my_dict)
   ```
 
   ```
-
+  {'age': 25, 'city': 'New York', 'is_student': True, 'name': 'Unknown'}
   ```
 
-  ### 1. Dictionary Basics
+  ### 15. Dictionary Update
 
   ```py
-
+  # Dictionary update
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict.update({"name": "Daniel", "age": 30})
+  print(my_dict)
   ```
 
   ```
-
+  {'name': 'Daniel', 'age': 30, 'city': 'New York', 'is_student': True}
   ```
 
-  ### 1. Dictionary Basics
+  ### 16. Dictionary with Nested Dictionaries
 
   ```py
-
+  # Dictionary with nested dictionaries
+  my_dict = {
+      "name": "John",
+      "age": 25,
+      "city": "New York",
+      "is_student": True,
+      "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "zip": "10001"
+      }
+  }
+  print(my_dict)
   ```
 
   ```
-
+  {'name': 'John', 'age': 25, 'city': 'New York', 'is_student': True, 'address': {'street': '123 Main St', 'city': 'New York', 'zip': '10001'}}
   ```
 
-  ### 1. Dictionary Basics
+  ### 17. Dictionary with list of Tuples
 
   ```py
-
+  # Dictionary with list of tuples
+  my_dict = {
+      "name": "John",
+      "age": 25,
+      "city": "New York",
+      "skills": [("Python", "Intermediate"), ("SQL", "Advanced"), ("JavaScript", "Beginner")]
+  }
+  print(my_dict)
   ```
 
   ```
-
+  {'name': 'John', 'age': 25, 'city': 'New York', 'skills': [('Python', 'Intermediate'), ('SQL', 'Advanced'), ('JavaScript', 'Beginner')]}
   ```
 
-  ### 1. Dictionary Basics
+  ### 18. Dictionary with list of Dictionaries
 
   ```py
-
+  # Dictionary with list of dictionaries
+  my_dict = {
+      "name": "John",
+      "age": 25,
+      "city": "New York",
+      "skills": [
+          {"language": "Python", "level": "Intermediate"},
+          {"language": "SQL", "level": "Advanced"},
+          {"language": "JavaScript", "level": "Beginner"}
+      ]
+  }
+  print(my_dict)
   ```
 
   ```
-
+  {'name': 'John', 'age': 25, 'city': 'New York', 'skills': [{'language': 'Python', 'level': 'Intermediate'}, {'language': 'SQL', 'level': 'Advanced'}, {'language': 'JavaScript', 'level': 'Beginner'}]}
   ```
 
 </details>
