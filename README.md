@@ -1,8 +1,6 @@
 # PYTHON-LABS-IFEANYI
 by Ifeanyi Omeata
 
-## Python
-
 <details>
   <summary>Python Basics</summary>
 
