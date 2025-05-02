@@ -1,4 +1,4 @@
-# PYTHON-DJANGO-FLASK-LABS-IFEANYI
+# PYTHON-LABS-IFEANYI
 by Ifeanyi Omeata
 
 ## Python
