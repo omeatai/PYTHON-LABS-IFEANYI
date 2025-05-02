@@ -1541,8 +1541,220 @@ by Ifeanyi Omeata
 </details>
 
 
+<details>
+  <summary>Python Dictionary</summary>
 
+  - [ ] 1. Range Basics
+  - [ ] 2. Range with start, stop
+  - [ ] 3. Range with start, stop, step
+  - [ ] 4. Range Length
+  - [ ] 5. Range to List
+  - [ ] 6. Range to Tuple
+  - [ ] 7. Range to Set
+  - [ ] 8. Range to Dictionary
 
+  ### 1. Dictionary Basics
 
+  ```py
+  # Dictionary Basics
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict)
+  ```
 
+  ```
+  {'name': 'John', 'age': 25, 'city': 'New York', 'is_student': True}
+  ```
+
+  ### 2. Dictionary Length
+
+  ```py
+  # Dictionary Length
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(len(my_dict))
+  ```
+
+  ```
+  4
+  ```
+
+  ### 3. Dictionary Access
+
+  ```py
+  # Dictionary access
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict["name"])
+  ```
+
+  ```
+  John
+  ```
+
+  ### 4. Dictionary Get
+
+  ```py
+  # Dictionary get
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict.get("name"))
+  ```
+
+  ```
+  John
+  ```
+
+  ### 5. Dictionary Items
+
+  ```py
+  # Dictionary items
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict.items())
+  ```
+
+  ```
+  dict_items([('name', 'John'), ('age', 25), ('city', 'New York'), ('is_student', True)])
+  ```
+
+  ### 6. Dictionary Keys
+
+  ```py
+  # Dictionary keys
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict.keys())
+  ```
+
+  ```
+  dict_keys(['name', 'age', 'city', 'is_student'])
+  ```
+
+  ### 7. Dictionary Values
+
+  ```py
+  # Dictionary values
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  print(my_dict.values())
+  ```
+
+  ```
+  dict_values(['John', 25, 'New York', True])
+  ```
+
+  ### 8. Dictionary Clear
+
+  ```py
+  # Dictionary clear
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict.clear()
+  print(my_dict)
+  ```
+
+  ```
+  {}
+  ```
+
+  ### 9. Dictionary Copy
+
+  ```py
+  # Dictionary copy
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict_copy = my_dict.copy()
+  print(my_dict_copy)
+  ```
+
+  ```
+  {'name': 'John', 'age': 25, 'city': 'New York', 'is_student': True}
+  ```
+
+  ### 10. Dictionary Fromkeys
+
+  ```py
+  # Dictionary fromkeys
+  my_dict = {"name": "John", "age": 25, "city": "New York", "is_student": True}
+  my_dict_fromkeys = my_dict.fromkeys(["name", "age", "city", "is_student"])
+  print(my_dict_fromkeys)
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+  ### 1. Dictionary Basics
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+</details>
 
