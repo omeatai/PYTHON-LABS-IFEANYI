@@ -240,6 +240,8 @@ by Ifeanyi Omeata
 - [ ] 19. String Isupper
 - [ ] 20. String Isspace
 - [ ] 21. String Istitle
+- [ ] 22. String to Number
+- [ ] 23. Number to String
 
   ### 1. String Basics
 
@@ -537,6 +539,32 @@ by Ifeanyi Omeata
   True
   ```
 
+  ### 22. String to Number
+
+  ```py
+  # String to Number
+  my_string = "1011101"
+  my_number = int(my_string)
+  print(my_number, type(my_number))
+  ```
+
+  ```
+  1011101 <class 'int'>
+  ```
+
+  ### 23. Number to String
+
+  ```py
+  # Number to String
+  my_number = 1011101
+  my_string = str(my_number)
+  print(my_string, type(my_string))
+  ```
+
+  ```
+  1011101 <class 'str'>
+  ```
+  
 </details>
 
 
