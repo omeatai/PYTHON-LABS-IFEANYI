@@ -1205,7 +1205,7 @@ by Ifeanyi Omeata
 
 
 <details>
-  <summary>Python Tuple</summary>
+  <summary>Python Set</summary>
 
   - [ ] 1. Set Basics
   - [ ] 2. Set Add
