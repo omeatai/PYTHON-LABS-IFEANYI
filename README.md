@@ -219,29 +219,29 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Strings</summary>
 
-- [ ] 1. String Basics
-- [ ] 2. String Membership
-- [ ] 3. String Length
-- [ ] 4. String Concatenation
-- [ ] 5. String Repetition
-- [ ] 6. String Slicing
-- [ ] 7. String Strip
-- [ ] 8. String Replace
-- [ ] 9. String Split
-- [ ] 10. String Join
-- [ ] 11. String Format
-- [ ] 12. String Count
-- [ ] 13. String Find
-- [ ] 14. String Index
-- [ ] 15. String Isalnum
-- [ ] 16. String Isalpha
-- [ ] 17. String Isdigit
-- [ ] 18. String Islower
-- [ ] 19. String Isupper
-- [ ] 20. String Isspace
-- [ ] 21. String Istitle
-- [ ] 22. String to Number
-- [ ] 23. Number to String
+  - [ ] 1. String Basics
+  - [ ] 2. String Membership
+  - [ ] 3. String Length
+  - [ ] 4. String Concatenation
+  - [ ] 5. String Repetition
+  - [ ] 6. String Slicing
+  - [ ] 7. String Strip
+  - [ ] 8. String Replace
+  - [ ] 9. String Split
+  - [ ] 10. String Join
+  - [ ] 11. String Format
+  - [ ] 12. String Count
+  - [ ] 13. String Find
+  - [ ] 14. String Index
+  - [ ] 15. String Isalnum
+  - [ ] 16. String Isalpha
+  - [ ] 17. String Isdigit
+  - [ ] 18. String Islower
+  - [ ] 19. String Isupper
+  - [ ] 20. String Isspace
+  - [ ] 21. String Istitle
+  - [ ] 22. String to Number
+  - [ ] 23. Number to String
 
   ### 1. String Basics
 
