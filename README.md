@@ -49,6 +49,7 @@ by Ifeanyi Omeata
   <summary>Python Datatypes</summary>
 
   - [ ] [1. NoneType](#1.-NoneType)
+  - [ ] [6. Numeric-Hexadecimal](6.-Numeric-Hexadecimal)
 
   ### 1. NoneType
   - [ ] NoneType: an object that does not contain any value
