@@ -4,6 +4,9 @@ by Ifeanyi Omeata
 <details>
   <summary>Python Basics</summary>
 
+  - [ ] 1. Print String
+  - [ ] 2. Use Comments
+
   ### 1. Print String
 
   ```py
@@ -53,7 +56,7 @@ by Ifeanyi Omeata
   - [ ] 3. Numeric-Floating Point (float)
   - [ ] 4. Numeric-Complex
   - [ ] 5. Numeric-Binary
-  - [ ] 6. Numeric Hexadecimal
+  - [ ] 6. Numeric-Hexadecimal
   - [ ] 7. Boolean
 
   ### 1. NoneType
@@ -126,7 +129,7 @@ by Ifeanyi Omeata
   <class 'int'>
   ```
 
-  ### 6. Numeric Hexadecimal
+  ### 6. Numeric-Hexadecimal
 
   ```py
   #Numeric-Hexadecimal
