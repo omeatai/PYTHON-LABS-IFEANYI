@@ -933,16 +933,15 @@ by Ifeanyi Omeata
   - [ ] 8. Tuple Reversed
   - [ ] 9. Tuple Slicing
   - [ ] 10. Tuple Membership
-  - [ ] 11. Tuple Basics
-  - [ ] 12. Tuple Unpacking
-  - [ ] 13. Tuple to List
-  - [ ] 14. List to Tuple
-  - [ ] 15. Tuple to String
-  - [ ] 16. String to Tuple
-  - [ ] 17. Tuple to Dictionary
-  - [ ] 18. Dictionary to Tuple
-  - [ ] 19. Tuple to Set
-  - [ ] 20. Set to Tuple
+  - [ ] 11. Tuple Unpacking
+  - [ ] 12. Tuple to List
+  - [ ] 13. List to Tuple
+  - [ ] 14. Tuple to String
+  - [ ] 15. String to Tuple
+  - [ ] 16. Tuple to Dictionary
+  - [ ] 17. Dictionary to Tuple
+  - [ ] 18. Tuple to Set
+  - [ ] 19. Set to Tuple
 
   ### 1. Tuple Basics
 
@@ -1072,19 +1071,7 @@ by Ifeanyi Omeata
   True
   ```
 
-  ### 11. Tuple Basics
-
-  ```py
-  # List basics
-  my_list = [10, 20, "Ifeanyi", -10, 30.5]
-  print(my_list)
-  ```
-
-  ```
-  [10, 20, 'Ifeanyi', -10, 30.5]
-  ```
-
-  ### 12. Tuple Unpacking
+  ### 11. Tuple Unpacking
 
   ```py
   # Tuple Unpacking
@@ -1097,7 +1084,7 @@ by Ifeanyi Omeata
   10 20 Ifeanyi -10 30.5
   ```
 
-  ### 13. Tuple to List
+  ### 12. Tuple to List
 
   ```py
   # Tuple to List
@@ -1110,7 +1097,7 @@ by Ifeanyi Omeata
   [10, 20, 'Ifeanyi', -10, 30.5]
   ```
 
-  ### 14. List to Tuple
+  ### 13. List to Tuple
 
   ```py
   # List to Tuple
@@ -1123,7 +1110,7 @@ by Ifeanyi Omeata
   (10, 20, 'Ifeanyi', -10, 30.5)
   ```
 
-  ### 15. Tuple to String
+  ### 14. Tuple to String
 
   ```py
   # Tuple to String
@@ -1136,7 +1123,7 @@ by Ifeanyi Omeata
   10, 20, Ifeanyi, -10, 30.5
   ```
 
-  ### 16. String to Tuple
+  ### 15. String to Tuple
 
   ```py
   # String to Tuple
@@ -1149,7 +1136,7 @@ by Ifeanyi Omeata
   ('10', '20', 'Ifeanyi', '-10', '30.5')
   ```
 
-  ### 17. Tuple to Dictionary
+  ### 16. Tuple to Dictionary
 
   ```py
   # Tuple to Dictionary
@@ -1162,7 +1149,7 @@ by Ifeanyi Omeata
   {'a': 10, 'b': 20, 'c': 30}
   ```
 
-  ### 18. Dictionary to Tuple
+  ### 17. Dictionary to Tuple
 
   ```py
   # Dictionary to Tuple
@@ -1175,7 +1162,7 @@ by Ifeanyi Omeata
   (('a', 10), ('b', 20), ('c', 30))
   ```
 
-  ### 19. Tuple to Set
+  ### 18. Tuple to Set
 
   ```py
   # Tuple to Set
@@ -1188,7 +1175,7 @@ by Ifeanyi Omeata
   {10, 20, 'Ifeanyi', -10, 30.5}
   ```
 
-  ### 20. Set to Tuple
+  ### 19. Set to Tuple
 
   ```py
   # Set to Tuple
