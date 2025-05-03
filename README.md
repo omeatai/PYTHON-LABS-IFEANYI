@@ -2088,7 +2088,46 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Input and Output Functions</summary>
+ 
+  ### 1. Input and Output Functions
 
+  ```py
+  # Input and Output Functions
+  name=input("Enter your name: ")
+  age=int(input("Enter your age: "))
+  print(name,age)
+  print(type(name),type(age))
+  ```
+
+  ```
+  Enter your name: Ifeanyi
+  Enter your age: 30
+  Ifeanyi 30
+  <class 'str'> <class 'int'>
+  ```
+
+  ### 2. Multiple Inputs
+  
+  ```py
+  # Multiple Inputs
+  a,b,c=input("Enter three numbers separated by comma: ").split(",")
+  list_1=[int(x) for x in input("Enter another three numbers: ").split()]
+  print(a,b,c)
+  print(type(a),type(b),type(c))
+  print(list_1)
+  ```
+
+  ```
+  Enter three numbers separated by comma: 2,3,4
+  Enter another three numbers: 1 2 3
+  2 3 4
+  <class 'str'> <class 'str'> <class 'str'>
+  [1, 2, 3]
+  ```
+
+</details>
 
 
 
