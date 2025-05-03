@@ -2040,7 +2040,7 @@ by Ifeanyi Omeata
 
 
 <details>
-  <summary>Python BMI Calculation</summary>
+  <summary>Project - BMI Calculation</summary>
  
   ### Calculate BMI
 
