@@ -2062,6 +2062,27 @@ by Ifeanyi Omeata
 </details>
 
 
+<details>
+  <summary>Python String Formatting</summary>
+ 
+  ### Python String Formatting
+
+  ```py
+  #String Formatting
+  name,marks="John",94.5678
+  print(name,marks,sep='|')
+  
+  print("Name is",name,"and marks are",marks)
+  print("Name is %s and marks are %.3f"%(name,marks))
+  print("Name is {0} and marks are {1:.2f}".format(name,marks))
+  print(f"Name is {name} and marks are {marks:.1f}")
+  ```
+
+  ```
+  BMI 24.59806602388617
+  ```
+
+</details>
 
 
 
