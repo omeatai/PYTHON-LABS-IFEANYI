@@ -1817,3 +1817,256 @@ by Ifeanyi Omeata
 
 </details>
 
+
+<details>
+  <summary>Python Operations and Operands</summary>
+  
+  - [ ] 1. Addition
+  - [ ] 2. Subtraction
+  - [ ] 3. Multiplication
+  - [ ] 4. Division
+  - [ ] 5. Floor Division
+  - [ ] 6. Modulus
+  - [ ] 7. Exponentiation
+  - [ ] 8. Assignment Operators
+  - [ ] 9. Comparison Operators
+  - [ ] 10. Logical Operators
+  - [ ] 11. Identity Operators
+  - [ ] 12. Membership Operators
+
+  ### 1. Addition
+
+  ```py
+  # Addition
+  a,b=10,5
+  print(a+b)
+  ```
+
+  ```
+  15
+  ```
+
+  ### 2. Subtraction
+
+  ```py
+  # Subtraction
+  a,b=10,5
+  print(a-b)
+  ```
+
+  ```
+  5
+  ```
+
+  ### 3. Multiplication
+
+  ```py
+  # Multiplication
+  a,b=10,5
+  print(a*b)
+  ```
+
+  ```
+  50
+  ```
+
+  ### 4. Division
+
+  ```py
+  # Division
+  a,b=10,5
+  print(a/b)
+  ```
+
+  ```
+  2.0
+  ```
+
+  ### 5. Floor Division
+
+  ```py
+  # Floor Division
+  a,b=10,5
+  print(a//b)
+  ```
+
+  ```
+  2
+  ```
+
+  ### 6. Modulus
+
+  ```py
+  # Modulus
+  a,b=10,5
+  print(a%b)
+  ```
+
+  ```
+  0
+  ```
+
+  ### 7. Exponentiation
+
+  ```py
+  # Exponentiation
+  a,b=10,5
+  print(a**b)
+  ```
+
+  ```
+  100000
+  ```
+
+  ### 8. Assignment Operators
+
+  ```py
+  # Assignment Operators
+  a=b=c=10
+  print(a,b,c)
+  
+  a=10
+  a+=10
+  print(a)
+  
+  a=10
+  a-=10
+  print(a)
+  
+  a=10
+  a*=10
+  print(a)
+  
+  a=10
+  a/=10
+  print(a)
+  
+  a=10
+  a%=10
+  print(a)
+  
+  a=10
+  a//=10
+  print(a)
+  
+  a=10
+  a**=10
+  print(a)
+  ```
+
+  ```
+  10 10 10
+  20
+  0
+  100
+  1.0
+  0
+  1
+  10000000000
+  ```
+
+  ### 9. Comparison Operators
+
+  ```py
+  # Comparison Operators
+  a,b=10,5
+  print(a==b)
+  print(a!=b)
+  print(a>b)
+  print(a<b)
+  print(a>=b)
+  print(a<=b)
+  ```
+
+  ```
+  False
+  True
+  True
+  False
+  True
+  False
+  ```
+
+  ### 10. Logical Operators
+
+  ```py
+  # Logical Operators
+  a,b=True,False
+  print(a and b)
+  print(a or b)
+  print(not a)
+  ```
+
+  ```
+  False
+  True
+  False
+  ```
+
+  ### 11. Identity Operators
+
+  ```py
+  # Identity Operators
+  a,b=10,10
+  print(a is b)
+  print(a is not b)
+  ```
+
+  ```
+  True
+  False
+  ```
+
+  ### 12. Membership Operators
+
+  ```py
+  # Membership Operators
+  a="Hello World"
+  print("H" in a)
+  print("h" in a)
+  print("H" not in a)
+  print("h" not in a)
+  ```
+
+  ```
+  True
+  False
+  False
+  True
+  ```
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
