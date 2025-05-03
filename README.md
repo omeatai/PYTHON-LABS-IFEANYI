@@ -2079,7 +2079,11 @@ by Ifeanyi Omeata
   ```
 
   ```
-  BMI 24.59806602388617
+  John|94.5678
+  Name is John and marks are 94.5678
+  Name is John and marks are 94.568
+  Name is John and marks are 94.57
+  Name is John and marks are 94.6
   ```
 
 </details>
