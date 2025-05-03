@@ -2132,6 +2132,76 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Grocery Checkout System</summary>
+  
+  ### Grocery Checkout System
+
+  ```py
+  # Project - Grocery Checkout System
+
+  prices = {
+      'apple': 1.00,
+      'banana': 0.50,
+      'orange': 0.75,
+      'pear': 1.25,
+      'pineapple': 2.00,
+  }
+  
+  TAX_RATE = 8.5/100
+  
+  item_1_name = input("Enter the name of the first item: ").lower()
+  item_1_quantity = int(input("Enter the quantity of the first item: "))
+  
+  item_2_name = input("Enter the name of the second item: ").lower()
+  item_2_quantity = int(input("Enter the quantity of the second item: "))
+  
+  item_3_name = input("Enter the name of the third item: ").lower()
+  item_3_quantity = int(input("Enter the quantity of the third item: "))
+  
+  item_1_unit_price = prices.get(item_1_name,0.0)
+  item_2_unit_price = prices.get(item_2_name,0.0)
+  item_3_unit_price = prices.get(item_3_name,0.0)
+  
+  item_1_price = item_1_unit_price * item_1_quantity
+  item_2_price = item_2_unit_price * item_2_quantity
+  item_3_price = item_3_unit_price * item_3_quantity
+  
+  total_price = item_1_price + item_2_price + item_3_price
+  
+  tax_amount = total_price * TAX_RATE
+  total_price_with_tax = total_price + tax_amount
+  
+  print("\n-----Receipt-----")
+  print(f"{item_1_name.capitalize()}: {item_1_quantity} @ ${item_1_unit_price:.2f} each = ${item_1_price:.2f}")
+  print(f"{item_2_name.capitalize()}: {item_2_quantity} @ ${item_2_unit_price:.2f} each = ${item_2_price:.2f}")
+  print(f"{item_3_name.capitalize()}: {item_3_quantity} @ ${item_3_unit_price:.2f} each = ${item_3_price:.2f}")
+  
+  print(f"Subtotal: ${total_price:.2f}")
+  print(f"Tax (8.5%): ${tax_amount:.2f}")
+  print(f"Total Amount: ${total_price_with_tax:.2f}")
+  print("-----------------\n")
+  ```
+
+  ```
+  Enter the name of the first item: apple
+  Enter the quantity of the first item: 10
+  Enter the name of the second item: pear
+  Enter the quantity of the second item: 5
+  Enter the name of the third item: pineapple
+  Enter the quantity of the third item: 2
+  
+  -----Receipt-----
+  Apple: 10 @ $1.00 each = $10.00
+  Pear: 5 @ $1.25 each = $6.25
+  Pineapple: 2 @ $2.00 each = $4.00
+  Subtotal: $20.25
+  Tax (8.5%): $1.72
+  Total Amount: $21.97
+  -----------------
+  ```
+
+</details>
 
 
 
