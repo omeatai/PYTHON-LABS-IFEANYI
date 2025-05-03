@@ -2039,8 +2039,27 @@ by Ifeanyi Omeata
 </details>
 
 
+<details>
+  <summary>Python BMI Calculation</summary>
+ 
+  ### Calculate BMI
 
+  ```py
+  # Calculate BMI
+  height_in_feet=5.9167
+  weight_in_kg=80
+  
+  height_in_meters=height_in_feet*0.3048
+  
+  bmi=weight_in_kg/(height_in_meters**2)
+  print('BMI', bmi)
+  ```
 
+  ```
+  BMI 24.59806602388617
+  ```
+
+</details>
 
 
 
