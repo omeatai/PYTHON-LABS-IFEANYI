@@ -2089,7 +2089,10 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Input and Output Functions</summary>
+  <summary>Python Input and Output Functions</summary>
+  
+  - [ ] 1. Input and Output Functions
+  - [ ] 2. Multiple Inputs
  
   ### 1. Input and Output Functions
 
