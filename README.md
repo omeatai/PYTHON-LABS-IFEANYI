@@ -2203,7 +2203,74 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Myway Sandwich System</summary>
+  
+  ### Myway Sandwich System
 
+  ```py
+  # Project - Myway Sandwich System
+  
+  myway_sandwiches = {
+      "1": ['steak_n_cheese', 10.00],
+      "2": ['steak_n_bacon', 12.00],
+      "3": ['bourbon_brisket', 14.00],
+      "4": ['chicken_teriyaki', 12.00],
+      "5": ['turkey_breast', 12.00],
+      "6": ['meatball_sub', 9.00],
+      "7": ['italian_sub', 11.00],
+  }
+  
+  toppings = {
+      'onions': 1.00,
+      'lettuce': 0.50,
+      'olive': 1.25,
+      'peppers': 2.00,
+      'pickles': 1.00,
+      'tomatoes': 0.50,
+  }
+  
+  TAX_RATE = 8.5/100
+  
+  sandwich_no = input("Enter the menu number of the sandwich you want to order: ")
+  sandwich_qty = int(input("Enter the quantity of the sandwich you want to order: "))
+  
+  toppings_1_name = input("Enter the name of the first topping: ").lower()
+  toppings_1_qty = int(input("Enter the quantity of the first topping: "))
+  
+  toppings_2_name = input("Enter the name of the second topping: ").lower()
+  toppings_2_qty = int(input("Enter the quantity of the second topping: "))
+  
+  toppings_3_name = input("Enter the name of the third topping: ").lower()
+  toppings_3_qty = int(input("Enter the quantity of the third topping: "))
+  
+  sandwich_unit_price = myway_sandwiches.get(sandwich_no)[1]
+  toppings_1_unit_price = toppings.get(toppings_1_name,0.0)
+  toppings_2_unit_price = toppings.get(toppings_2_name,0.0)
+  toppings_3_unit_price = toppings.get(toppings_3_name,0.0)
+  
+  sandwich_price = sandwich_unit_price * sandwich_qty
+  toppings_1_price = toppings_1_unit_price * toppings_1_qty
+  toppings_2_price = toppings_2_unit_price * toppings_2_qty
+  toppings_3_price = toppings_3_unit_price * toppings_3_qty
+  
+  total_price = sandwich_price + toppings_1_price + toppings_2_price + toppings_3_price
+  
+  tax_amount = total_price * TAX_RATE
+  total_price_with_tax = total_price + tax_amount
+  
+  print("\n-----Receipt-----")
+  print(f"{myway_sandwiches.get(sandwich_no)[0].capitalize()}: {sandwich_qty} @ ${sandwich_unit_price:.2f} each = ${sandwich_price:.2f}")
+  print(f"{toppings_1_name.capitalize()}: {toppings_1_qty} @ ${toppings_1_unit_price:.2f} each = ${toppings_1_price:.2f}")
+  print(f"{toppings_2_name.capitalize()}: {toppings_2_qty} @ ${toppings_2_unit_price:.2f} each = ${toppings_2_price:.2f}")
+  print(f"{toppings_3_name.capitalize()}: {toppings_3_qty} @ ${toppings_3_unit_price:.2f} each = ${toppings_3_price:.2f}")
+  print(f"Subtotal: ${total_price:.2f}")
+  print(f"Tax (8.5%): ${tax_amount:.2f}")
+  print(f"Total Amount: ${total_price_with_tax:.2f}")
+  print("-----------------\n")
+  ```
+
+</details>
 
 
 
