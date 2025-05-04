@@ -2270,6 +2270,27 @@ by Ifeanyi Omeata
   print("-----------------\n")
   ```
 
+  ```
+  Enter the menu number of the sandwich you want to order: 3
+  Enter the quantity of the sandwich you want to order: 2
+  Enter the name of the first topping: onions
+  Enter the quantity of the first topping: 5
+  Enter the name of the second topping: olive
+  Enter the quantity of the second topping: 3
+  Enter the name of the third topping: tomatoes
+  Enter the quantity of the third topping: 10
+  
+  -----Receipt-----
+  Bourbon_brisket: 2 @ $14.00 each = $28.00
+  Onions: 5 @ $1.00 each = $5.00
+  Olive: 3 @ $1.25 each = $3.75
+  Tomatoes: 10 @ $0.50 each = $5.00
+  Subtotal: $41.75
+  Tax (8.5%): $3.55
+  Total Amount: $45.30
+  -----------------
+  ```
+
 </details>
 
 
