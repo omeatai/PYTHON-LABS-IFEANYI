@@ -2481,6 +2481,57 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - While Loop</summary>
+  
+  ### While Loop
+
+  ```py
+  # While Loop
+  num=1
+  while num<=10:
+      print(num)
+      num+=1
+  ```
+
+  ```
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  ```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
