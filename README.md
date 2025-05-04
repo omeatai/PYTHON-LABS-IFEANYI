@@ -2293,9 +2293,39 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Student Record System</summary>
+  
+  ### Student Record System
 
+  ```py
+  # Project - Student Record System
+  student_id = int(input("Enter the student ID: "))
+  student_first_name = input("Enter the student first name: ")
+  student_last_name = input("Enter the student last name: ")
+  student_score = float(input("Enter the student score: "))
+  
+  print("\n-----Student Report-----")
+  print(f"Student ID: {student_id}")
+  print(f"Student name: {student_first_name.capitalize()} {student_last_name.capitalize()}")
+  print(f"Student score: {student_score:.2f}")
+  print("------------------------\n")
+  ```
 
+  ```
+  Enter the student ID: 10052 
+  Enter the student first name: James
+  Enter the student last name: Munroe
+  Enter the student score: 99
+  
+  -----Student Report-----
+  Student ID: 10052
+  Student name: James Munroe
+  Student score: 99.00
+  ------------------------
+  ```
 
+</details>
 
 
 
