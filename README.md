@@ -2611,7 +2611,26 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - Break Statement</summary>
+  
+  ### Break Statement
 
+  ```py
+  # break statement
+  for i in [2,3,5,7,9,11]:
+      if i==7:
+          break
+      print(i)
+  ```
+
+  ```
+  2
+  3
+  5
+  ```
+
+</details>
 
 
 
