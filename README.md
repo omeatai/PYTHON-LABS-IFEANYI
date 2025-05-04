@@ -2509,7 +2509,36 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Odd numbers between two numbers</summary>
+  
+  ### While Loop
 
+  ```py
+  #Odd numbers between two numbers
+  first_num=int(input("Enter first number: "))
+  second_num=int(input("Enter second number: "))
+  num=min(first_num,second_num)
+  if num%2==0:
+      num+=1
+  
+  while num<=max(first_num,second_num):
+      print(num)
+      num+=2
+  ```
+
+  ```
+  Enter first number: 1
+  Enter second number: 12
+  1
+  3
+  5
+  7
+  9
+  11
+  ```
+
+</details>
 
 
 
