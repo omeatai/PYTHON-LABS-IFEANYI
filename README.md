@@ -2370,8 +2370,65 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - If/else condition</summary>
+  
+  ### if/else condition
 
+  ```py
+  # if/else condition
+  num=int(input("Enter a number: "))
+  if num%2==0:
+      print(f"{num} is Even!")
+  else:
+      print(f"{num} is Odd!")
+  ```
 
+  ```
+  Enter a number: 8
+  8 is Even!
+
+  Enter a number: 5
+  5 is Odd!
+  ```
+
+</details>
+
+<details>
+  <summary>Python - If/elif/else condition</summary>
+  
+  ### if/elif/else condition
+
+  ```py
+  # if/elif/else condition
+  num=input("Enter a number: ")
+  if num=="0":
+      print(f"{num} is Zero!")
+  elif num.isdigit():
+      num=int(num)
+      if num%2==0:
+          print(f"{num} is Even!")
+      elif num%3==0:
+          print(f"{num} is Odd!")
+  else:
+      print(f"{num} is not a number!")
+  ```
+
+  ```
+  Enter a number: 8
+  8 is Even!
+
+  Enter a number: 5
+  5 is Odd!
+
+  Enter a number: 0
+  0 is Zero!
+
+  Enter a number: a
+  a is not a number!
+  ```
+
+</details>
 
 
 
