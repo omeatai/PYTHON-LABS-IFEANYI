@@ -2348,6 +2348,27 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Area of a Circle</summary>
+  
+  ### Area of a Circle
+
+  ```py
+  # Project - Area of a Circle
+  import math
+  
+  radius = float(input("Enter the radius of the circle: "))
+  pi = math.pi #22/7
+  area = pi * radius * radius
+  print(f"The area of the circle is {area:.2f}")
+  ```
+
+  ```
+  Enter the radius of the circle: 7
+  The area of the circle is 153.94
+  ```
+
+</details>
 
 
 
