@@ -2327,6 +2327,26 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Average of Numbers</summary>
+  
+  ### Average of Numbers
+
+  ```py
+  # Project - Average of Numbers
+  a,b,c = map(int, input("Enter the three numbers, separate by commas: ").split(","))
+  
+  num_average = (a + b + c) / 3
+  
+  print(f"The average of the three numbers is {num_average:.2f}")
+  ```
+
+  ```
+  Enter the three numbers, separate by commas: 4,5,6
+  The average of the three numbers is 5.00
+  ```
+
+</details>
 
 
 
