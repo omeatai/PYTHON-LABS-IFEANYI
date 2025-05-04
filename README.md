@@ -2430,6 +2430,56 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Grading Application</summary>
+  
+  ### Grading Application
+
+  ```py
+  # Grading Application
+  maths=float(input("Enter student's maths score: "))
+  total=physics=chemistry=0
+  
+  if maths<35:
+      print("Failed in maths! Retake Exam!")
+  else:
+      physics=float(input("Enter student's physics score: "))
+      if physics<35:
+          print("Failed in physics! Retake Exam!")
+      else:
+          chemistry=float(input("Enter student's chemistry score: "))
+          if chemistry<35:
+              print("Failed in chemistry! Retake Exam!")
+          else:
+              total=(maths+physics+chemistry)/3
+              if total<=59:
+                  print(f"Grade: C with total={total}")
+              elif total<=69:
+                  print(f"Grade: B with total={total}")
+              else:
+                  print(f"Grade: A with total={total}")
+  ```
+
+  ```
+  Enter student's maths score: 29
+  Failed in maths! Retake Exam!
+  
+  Enter student's maths score: 45
+  Enter student's physics score: 25
+  Failed in physics! Retake Exam!
+  
+  Enter student's maths score: 45
+  Enter student's physics score: 65
+  Enter student's chemistry score: 13
+  Failed in chemistry! Retake Exam!
+  
+  Enter student's maths score: 65
+  Enter student's physics score: 75
+  Enter student's chemistry score: 85
+  Grade: A with total=75.0
+  ```
+
+</details>
 
 
 
