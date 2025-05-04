@@ -2512,7 +2512,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Odd numbers between two numbers</summary>
   
-  ### While Loop
+  ### Odd numbers between two numbers
 
   ```py
   #Odd numbers between two numbers
@@ -2562,9 +2562,40 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Project - Product of all numbers in a list</summary>
+  
+  ### Product of all numbers in a list
 
+  ```py
+  # Product of all numbers in a list
+  mylist=[1,2,4,6,7,9]
+  result=1
+  for num in mylist:
+      result*=num
+  print(f"Product of numbers is in List {mylist} is {result}.")
+  ```
 
+  ```
+  Product of numbers is in List [1, 2, 4, 6, 7, 9] is 3024.
+  ```
 
+</details>
+
+<details>
+  <summary>Project - Multiplication Table of a given number</summary>
+  
+  ### Multiplication Table of a given number
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+</details>
 
 
 
