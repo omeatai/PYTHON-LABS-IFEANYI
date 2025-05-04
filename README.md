@@ -2540,6 +2540,27 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - For Loop</summary>
+  
+  ### While Loop
+
+  ```py
+  # For Loop
+  for i in range(10,21,2):
+      print(i)
+  ```
+
+  ```
+  10
+  12
+  14
+  16
+  18
+  20
+  ```
+
+</details>
 
 
 
