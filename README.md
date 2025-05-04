@@ -2632,7 +2632,39 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - Continue Statement</summary>
+  
+  ### Continue Statement
 
+  ```py
+  # continue statement
+  i = 0
+  while i < 20:
+      i+=1
+      if i%3==0:
+          continue
+      print(i)
+  ```
+
+  ```
+  1
+  2
+  4
+  5
+  7
+  8
+  10
+  11
+  13
+  14
+  16
+  17
+  19
+  20
+  ```
+
+</details>
 
 
 
