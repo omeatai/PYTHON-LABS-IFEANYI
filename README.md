@@ -1,6 +1,10 @@
 # PYTHON-LABS-IFEANYI
 by Ifeanyi Omeata
 
+# Python
+
+## [Python Course 1](https://www.udemy.com/course/python-core-and-advanced)
+
 <details>
   <summary>Python Basics</summary>
 
@@ -2687,5 +2691,24 @@ by Ifeanyi Omeata
 
 
 
+<details>
+  <summary>Python - </summary>
+  
+  ### C
+
+  ```py
+
+  ```
+
+  ```
+
+  ```
+
+</details>
 
 
+
+
+
+
+<hr>
