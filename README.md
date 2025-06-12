@@ -2139,7 +2139,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Grocery Checkout System</summary>
   
-  ### Grocery Checkout System
+  ### python\index.py
 
   ```py
   # Project - Grocery Checkout System
@@ -2210,8 +2210,8 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Myway Sandwich System</summary>
   
-  ### Myway Sandwich System
-
+  ### python\index.py
+  
   ```py
   # Project - Myway Sandwich System
   
@@ -2300,7 +2300,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Student Record System</summary>
   
-  ### Student Record System
+  ### python\index.py
 
   ```py
   # Project - Student Record System
@@ -2334,7 +2334,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Average of Numbers</summary>
   
-  ### Average of Numbers
+  ### python\index.py
 
   ```py
   # Project - Average of Numbers
@@ -2355,7 +2355,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Area of a Circle</summary>
   
-  ### Area of a Circle
+  ### python\index.py
 
   ```py
   # Project - Area of a Circle
@@ -2377,7 +2377,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - If/else condition</summary>
   
-  ### if/else condition
+  ### python\index.py
 
   ```py
   # if/else condition
@@ -2401,7 +2401,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - If/elif/else condition</summary>
   
-  ### if/elif/else condition
+  ### python\index.py
 
   ```py
   # if/elif/else condition
@@ -2437,7 +2437,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Grading Application</summary>
   
-  ### Grading Application
+  ### python\index.py
 
   ```py
   # Grading Application
@@ -2488,7 +2488,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - While Loop</summary>
   
-  ### While Loop
+  ### python\index.py
 
   ```py
   # While Loop
@@ -2516,7 +2516,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Odd numbers between two numbers</summary>
   
-  ### Odd numbers between two numbers
+  ### python\index.py
 
   ```py
   #Odd numbers between two numbers
@@ -2547,7 +2547,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - For Loop</summary>
   
-  ### While Loop
+  ### python\index.py
 
   ```py
   # For Loop
@@ -2569,7 +2569,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Product of all numbers in a list</summary>
   
-  ### Product of all numbers in a list
+  ### python\index.py
 
   ```py
   # Product of all numbers in a list
@@ -2589,7 +2589,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Project - Multiplication Table of a given number</summary>
   
-  ### Multiplication Table of a given number
+  ### python\index.py
 
   ```py
   # Multiplication Table of a given number
@@ -2618,7 +2618,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - Break Statement</summary>
   
-  ### Break Statement
+  ### python\index.py
 
   ```py
   # break statement
@@ -2639,7 +2639,7 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - Continue Statement</summary>
   
-  ### Continue Statement
+  ### python\index.py
 
   ```py
   # continue statement
@@ -2669,6 +2669,37 @@ by Ifeanyi Omeata
   ```
 
 </details>
+
+<details>
+  <summary>Python - Assert Statement </summary>
+  
+  ### python\index.py
+
+  ```py
+  # assert statement
+  x=int(input("Enter a number greater than 10 : "))
+  assert x>10, "x is not greater than 10"
+  print("You entered: ", x)
+  
+  # Press the green button in the gutter to run the script.
+  if __name__ == '__main__':
+      print('Completed!')
+  ```
+
+  ![image](https://github.com/user-attachments/assets/4794b313-5b0b-47e1-bf0f-6e4fd3be1727)
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
