@@ -2774,7 +2774,91 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python Task - Handle Employee Details </summary>
+  
+  ### Github/python/main.py
 
+  ```py
+  # Handle Employee Details
+  employees = []
+  
+  
+  def add_employee(name, age, salary=0.0):
+      id = employees[-1]["id"] + 1 if employees else 1
+      employees.append(
+          {"id": id, "name": name, "age": age, "salary": salary})
+  
+  
+  def remove_employee(id):
+      for employee in employees:
+          if employee["id"] == id:
+              employee_name = employee["name"]
+              employees.remove(employee)
+              print(
+                  f"Employee {employee_name} with id {id} was removed successfully")
+              return
+      print(f"404 | Employee not found")
+  
+  
+  def display_employees(id):
+      for employee in employees:
+          if employee["id"] == id:
+              print(employee)
+              return
+      print(f"404 | Employee not found")
+  
+  
+  n = int(input("Enter the number of employees: "))
+  
+  for i in range(n):
+      print("--------------------------------")
+      name = input("Enter the name of the employee: ")
+      age = int(input("Enter the age of the employee: "))
+      salary = float(input("Enter the salary of the employee: "))
+      add_employee(name, age, salary)
+      print(f"Employee {name} was added successfully")
+      print("--------------------------------")
+  
+  while True:
+      print("1. Add Employee")
+      print("2. Remove Employee")
+      print("3. Display Employees")
+      print("4. Exit")
+      choice = int(input("Enter your choice: "))
+      if choice == 1:
+          print("--------------------------------")
+          name = input("Enter the name of the employee: ")
+          age = int(input("Enter the age of the employee: "))
+          salary = float(input("Enter the salary of the employee: "))
+          add_employee(name, age, salary)
+          print(f"Employee {name} was added successfully")
+          print("--------------------------------")
+      elif choice == 2:
+          print("--------------------------------")
+          id = int(input("Enter the id of the employee: "))
+          remove_employee(id)
+          print("--------------------------------")
+      elif choice == 3:
+          print("--------------------------------")
+          id = int(input("Enter the id of the employee: "))
+          display_employees(id)
+          print("--------------------------------")
+      elif choice == 4:
+          print("--------------------------------")
+          print("Thank you for using the Employee Management System")
+          print("--------------------------------")
+          break
+      else:
+          print("--------------------------------")
+          print("Invalid choice")
+          print("--------------------------------")
+
+  ```
+
+  <img width="1338" alt="image" src="https://github.com/user-attachments/assets/993be48f-f1a4-4fda-b6c7-a4e1444822b2" />
+
+</details>
 
 
 
