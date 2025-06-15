@@ -2691,42 +2691,56 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Python - </summary>
+  <summary>Python - Remove the duplicates from the list </summary>
   
-  ### C
+  ### Github/python/main.py
+
+  ```py
+  # Remove the duplicates from the list
+  numbers = eval(input("Enter numbers separated by commas: "))
+  
+  list_numbers = list(map(int, numbers))
+  print(list_numbers)
+  
+  
+  def remove_duplicates_1(my_list):
+      return list(set(my_list))
+  
+  
+  def remove_duplicates_2(my_list):
+      new_list = []
+      for number in my_list:
+          if number not in new_list:
+              new_list.append(number)
+      return new_list
+  
+  
+  def remove_duplicates_3(my_list):
+      print(dict.fromkeys(my_list))
+      return list(dict.fromkeys(my_list))
+  
+  
+  print(remove_duplicates_1(list_numbers))
+  print(remove_duplicates_2(list_numbers))
+  print(remove_duplicates_3(list_numbers))
+  ```
+
+  <img width="1338" alt="image" src="https://github.com/user-attachments/assets/fd86cd9c-cec4-43cc-bb59-8ab077e4498e" />
+
+</details>
+
+<details>
+  <summary>Python - Count Vowels in a Word </summary>
+  
+  ### Github/python/main.py
 
   ```py
 
   ```
 
-  ```
 
-  ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2762,20 +2776,20 @@ by Ifeanyi Omeata
 <details>
   <summary>Python - </summary>
   
-  ### C
+  ### Github/python/main.py
 
   ```py
 
   ```
 
-  ```
 
-  ```
 
 </details>
 
 
+```
 
+```
 
 
 
