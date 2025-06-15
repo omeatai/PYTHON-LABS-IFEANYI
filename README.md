@@ -2044,7 +2044,7 @@ by Ifeanyi Omeata
 
 
 <details>
-  <summary>Project - BMI Calculation</summary>
+  <summary>Python Task - BMI Calculation</summary>
  
   ### Calculate BMI
 
@@ -2137,12 +2137,12 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Grocery Checkout System</summary>
+  <summary>Python Task - Grocery Checkout System</summary>
   
   ### python\index.py
 
   ```py
-  # Project - Grocery Checkout System
+  # Python Task - Grocery Checkout System
 
   prices = {
       'apple': 1.00,
@@ -2208,12 +2208,12 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Myway Sandwich System</summary>
+  <summary>Python Task - Myway Sandwich System</summary>
   
   ### python\index.py
   
   ```py
-  # Project - Myway Sandwich System
+  # Python Task - Myway Sandwich System
   
   myway_sandwiches = {
       "1": ['steak_n_cheese', 10.00],
@@ -2298,12 +2298,12 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Student Record System</summary>
+  <summary>Python Task - Student Record System</summary>
   
   ### python\index.py
 
   ```py
-  # Project - Student Record System
+  # Python Task - Student Record System
   student_id = int(input("Enter the student ID: "))
   student_first_name = input("Enter the student first name: ")
   student_last_name = input("Enter the student last name: ")
@@ -2332,12 +2332,12 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Average of Numbers</summary>
+  <summary>Python Task - Average of Numbers</summary>
   
   ### python\index.py
 
   ```py
-  # Project - Average of Numbers
+  # Python Task - Average of Numbers
   a,b,c = map(int, input("Enter the three numbers, separate by commas: ").split(","))
   
   num_average = (a + b + c) / 3
@@ -2353,12 +2353,12 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Area of a Circle</summary>
+  <summary>Python Task - Area of a Circle</summary>
   
   ### python\index.py
 
   ```py
-  # Project - Area of a Circle
+  # Python Task - Area of a Circle
   import math
   
   radius = float(input("Enter the radius of the circle: "))
@@ -2435,7 +2435,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Grading Application</summary>
+  <summary>Python Task - Grading Application</summary>
   
   ### python\index.py
 
@@ -2514,7 +2514,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Odd numbers between two numbers</summary>
+  <summary>Python Task - Odd numbers between two numbers</summary>
   
   ### python\index.py
 
@@ -2567,7 +2567,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Product of all numbers in a list</summary>
+  <summary>Python Task - Product of all numbers in a list</summary>
   
   ### python\index.py
 
@@ -2587,7 +2587,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Project - Multiplication Table of a given number</summary>
+  <summary>Python Task - Multiplication Table of a given number</summary>
   
   ### python\index.py
 
