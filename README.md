@@ -2691,7 +2691,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Python - Remove the duplicates from the list </summary>
+  <summary>Python Task - Remove the duplicates from the list </summary>
   
   ### Github/python/main.py
 
@@ -2730,15 +2730,47 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Python - Count Vowels in a Word </summary>
+  <summary>Python Task - Count Vowels in a Word </summary>
   
   ### Github/python/main.py
 
   ```py
+  # Count Vowels in a word
+  word = input("Enter a word: ")
+  
+  
+  def count_vowels_1(word):
+      vowels = "aeiouAEIOU"
+      count = 0
+      for letter in word:
+          if letter in vowels:
+              count += 1
+      return count
+  
+  
+  def count_vowels_2(word):
+      vowels = {"a", "e", "i", "o", "u", "A", "E", "I", "O", "U"}
+      results = {}
+      for letter in word:
+          if letter in vowels:
+              results[letter] = results.get(letter, 0) + 1
+      for letter, count in results.items():
+          print(f"{letter} is present {count} times")
+      return results
+  
+  
+  def count_vowels_3(word):
+      vowels = "aeiouAEIOU"
+      return sum(1 for letter in word if letter in vowels)
+  
+  
+  print(count_vowels_1(word))
+  print(count_vowels_2(word))
+  print(count_vowels_3(word))
 
   ```
 
-
+  <img width="1338" alt="image" src="https://github.com/user-attachments/assets/c62e6641-3623-4219-aeb4-2e6d91a6c6fc" />
 
 </details>
 
