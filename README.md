@@ -2861,7 +2861,7 @@ by Ifeanyi Omeata
 </details>
 
 <details>
-  <summary>Python - # Prime No Checker </summary>
+  <summary>Python - Prime No Checker </summary>
   
   ### Github/python/main.py
 
