@@ -2860,6 +2860,32 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python - # Prime No Checker </summary>
+  
+  ### Github/python/main.py
+
+  ```py
+  # Prime No Checker
+  
+  def isPrime(n):
+      primeFlag=True
+  
+      if n==1:
+          return False
+      for i in range(2,n-1):
+          if n%i==0:
+              primeFlag=False
+              break
+      return "Prime No" if primeFlag else "Not a Prime No"
+  
+  int_number=int(input("Enter an Integer Number: "))
+  print(isPrime(int_number))
+  ```
+
+  ![image](https://github.com/user-attachments/assets/7e8e1acb-008b-4890-b26d-58bd1535af56)
+
+</details>
 
 
 
