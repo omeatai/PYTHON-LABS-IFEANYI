@@ -1,9 +1,7 @@
 # PYTHON-LABS-IFEANYI
 by Ifeanyi Omeata
 
-# Python
-
-## [Python Course 1](https://www.udemy.com/course/python-core-and-advanced)
+## [Python Course 1 - Python for beginners](https://www.udemy.com/course/python-core-and-advanced)
 
 <details>
   <summary>Python Basics</summary>
