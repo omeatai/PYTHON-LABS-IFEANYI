@@ -2885,7 +2885,42 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python Task - Reverse a String </summary>
+  
+  ### Github/python/main.py
 
+  ```py
+  # Reverse a string
+  
+  s = input("Enter a string: ")
+  
+  
+  def reverse_string(s):
+      return s[::-1]
+  
+  
+  def reverse_string_2(s):
+      return "".join(reversed(s))
+  
+  
+  def reverse_string_3(s):
+      result = ""
+      i = len(s)-1
+      while i >= 0:
+          result += s[i]
+          i -= 1
+      return result
+  
+  
+  print(reverse_string(s))
+  print(reverse_string_2(s))
+  print(reverse_string_3(s))
+  ```
+
+  <img width="1338" height="995" alt="image" src="https://github.com/user-attachments/assets/fe1b4bdc-ac06-473c-aded-19e7997b949f" />
+
+</details>
 
 
 
