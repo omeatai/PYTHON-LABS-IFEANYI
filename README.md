@@ -2922,7 +2922,55 @@ by Ifeanyi Omeata
 
 </details>
 
+<details>
+  <summary>Python Task - Reverse words in a string </summary>
+  
+  ### Github/python/main.py
 
+  ```py
+  # Reverse words in a string
+
+  s = input("Enter a string: ")
+  
+  def reverse_words(s):
+      list_s = s.split()
+      print(list_s)
+      list_s.reverse()
+      print(list_s)
+      return " ".join(list_s)
+  
+  
+  def reverse_words_2(s):
+      return " ".join(reversed(s.split()))
+  
+  
+  def reverse_words_3(s):
+      result = []
+      for word in s.split():
+          result.insert(0, word)
+      return " ".join(result)
+  
+  
+  def reverse_words_4(s):
+      list_s = s.split()
+      result = []
+      i = len(list_s) - 1
+      while i >= 0:
+          result.append(list_s[i])
+          i -= 1
+      return " ".join(result)
+  
+  
+  print(reverse_words(s))
+  print(reverse_words_2(s))
+  print(reverse_words_3(s))
+  print(reverse_words_4(s))
+
+  ```
+
+  <img width="1338" height="995" alt="image" src="https://github.com/user-attachments/assets/352f75d7-6c47-4786-952a-3499c420aaf5" />
+
+</details>
 
 
 
