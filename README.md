@@ -2,7 +2,7 @@
 
 ## #LABS
 
-### [1 - Python for beginners](https://www.udemy.com/course/python-core-and-advanced)
+### [1 - Python for beginners](https://github.com/omeatai/PYTHON-LABS-IFEANYI/blob/main/labs/1.md)
 
 ### PYTHON BASICS
 
