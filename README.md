@@ -1,12 +1,10 @@
-# PYTHON-LABS-IFEANYI
+# PYTHON-LABS-IFEANYI by Ifeanyi Omeata
 
-by Ifeanyi Omeata
+## LABS
 
-# LABS
+### [1 - Python for beginners](https://www.udemy.com/course/python-core-and-advanced)
 
-## [1 - Python for beginners](https://www.udemy.com/course/python-core-and-advanced)
-
-# PYTHON BASICS
+### PYTHON BASICS
 
 - [ ] [Python for beginners](https://www.udemy.com/course/python-core-and-advanced/)
 - [ ] [Python For Beginners: Scripting Programming With Python 3](https://www.udemy.com/course/python-scripting/)
@@ -30,12 +28,12 @@ by Ifeanyi Omeata
 
 </details>
 
-# PYTHON TESTING & DESIGN
+### PYTHON TESTING & DESIGN
 
 - [ ] [The Ultimate Python Unit Testing Course](https://www.udemy.com/course/python-unit-testing/)
 - [ ] [Design Patterns in Python](https://www.udemy.com/course/design-patterns-python/)
 
-# PYTHON DATA & ALGORITHMS
+### PYTHON DATA & ALGORITHMS
 
 - [ ] [Complete Python With DSA Bootcamp + LEETCODE Exercises](https://www.udemy.com/course/complete-python-dsa-bootcamp)
 - [ ] [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
@@ -51,7 +49,7 @@ by Ifeanyi Omeata
 
 </details>
 
-# DJANGO TUTORIALS
+### DJANGO TUTORIALS
 
 - [ ] [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
 - [ ] [Django for Python Developers](https://www.udemy.com/course/django-for-python-developers)
@@ -66,6 +64,6 @@ by Ifeanyi Omeata
 - [ ] [React, Next.js and Django: A Rapid Guide - Advanced](https://www.udemy.com/course/react-django-advanced/)
 - [ ] [The Ultimate Authentication Course with Django and React](https://www.udemy.com/course/react-django-authentication)
 
-# SQL TUTORIALS
+### SQL TUTORIALS
 
 - [ ] [MySQL: From Beginner to Monster Level (4-Hour Complete Course)](https://www.youtube.com/watch?v=h4R-nJbM_ac)
