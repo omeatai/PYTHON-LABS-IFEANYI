@@ -1,12 +1,8 @@
 # PYTHON-LABS-IFEANYI by Ifeanyi Omeata
 
-## #LABS
-
-### [1 - Python for beginners](https://github.com/omeatai/PYTHON-LABS-IFEANYI/blob/main/labs/1.md)
-
 ### PYTHON BASICS
 
-- [ ] [Python for beginners](https://www.udemy.com/course/python-core-and-advanced/)
+- [x] [Python for beginners](https://www.udemy.com/course/python-core-and-advanced/)[Notes](https://github.com/omeatai/PYTHON-LABS-IFEANYI/blob/main/labs/1.md)
 - [ ] [Python For Beginners: Scripting Programming With Python 3](https://www.udemy.com/course/python-scripting/)
 - [ ] [Learn To Code From Scratch With Python 3](https://www.udemy.com/course/learn-to-code-from-scratch-with-python-3/)
 - [ ] [The Complete Python Developer - zero-to-mastery](https://www.udemy.com/course/complete-python-developer-zero-to-mastery/)
