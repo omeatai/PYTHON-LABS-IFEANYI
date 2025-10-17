@@ -9,6 +9,10 @@
 - [ ] [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
 - [ ] [Automate the Boring Stuff with Python Programming](https://www.udemy.com/course/automate/)
 - [ ] [Python & Cryptocurrency API: Build 5 Real World Applications](https://www.udemy.com/course/coinmarketcap)
+- [ ] [Serverless using AWS Lambda for Python Developers](https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/)
+- [ ] [Langchain for beginners : Build GenAI LLM Apps in Easy Steps](https://www.udemy.com/course/langchain-for-beginners-build-genai-llm-apps-in-easy-steps/)
+
+
 
 ### PYTHON TESTING & DESIGN
 
@@ -17,6 +21,7 @@
 
 ### PYTHON DATA & ALGORITHMS
 
+- [ ] [Python Logical Programs and Data Structures for beginners](https://www.udemy.com/course/python-logical-programs-and-data-structures-for-beginners/)
 - [ ] [Complete Python With DSA Bootcamp + LEETCODE Exercises](https://www.udemy.com/course/complete-python-dsa-bootcamp)
 - [ ] [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 - [ ] [Data Structures and Algorithms Python: The Complete Bootcamp](https://www.udemy.com/course/data-structures-and-algorithms-masterclass/)
