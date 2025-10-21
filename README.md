@@ -3,6 +3,7 @@
 ### PYTHON BASICS
 
 - [x] [Python for beginners](https://www.udemy.com/course/python-core-and-advanced/) | [Notes](https://github.com/omeatai/PYTHON-LABS-IFEANYI/blob/main/labs/1.md)
+- [ ] [https://www.udemy.com/course/python-tutorials-for-by-navinreddy/](https://www.udemy.com/course/python-tutorials-for-by-navinreddy/)
 - [ ] [Python Bootcamp: Beginner to Master Programming](https://www.udemy.com/course/python-programming-for-beginners-with-exercises/)
 - [ ] [Python for Beginners - Go from Java to Python in 100 Steps](https://www.udemy.com/course/learn-python-programming-for-java-programmers)
 - [ ] [Python For Beginners: Scripting Programming With Python 3](https://www.udemy.com/course/python-scripting/)
@@ -13,8 +14,6 @@
 - [ ] [Python & Cryptocurrency API: Build 5 Real World Applications](https://www.udemy.com/course/coinmarketcap)
 - [ ] [Serverless using AWS Lambda for Python Developers](https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/)
 - [ ] [Langchain for beginners : Build GenAI LLM Apps in Easy Steps](https://www.udemy.com/course/langchain-for-beginners-build-genai-llm-apps-in-easy-steps/)
-
-
 
 ### PYTHON TESTING & DESIGN
 
