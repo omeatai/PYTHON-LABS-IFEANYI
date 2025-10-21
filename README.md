@@ -3,7 +3,7 @@
 ### PYTHON BASICS
 
 - [x] [Python for beginners](https://www.udemy.com/course/python-core-and-advanced/) | [Notes](https://github.com/omeatai/PYTHON-LABS-IFEANYI/blob/main/labs/1.md)
-- [ ] [https://www.udemy.com/course/python-tutorials-for-by-navinreddy/](https://www.udemy.com/course/python-tutorials-for-by-navinreddy/)
+- [ ] [Python for Beginners with Telusko](https://www.udemy.com/course/python-tutorials-for-by-navinreddy/)
 - [ ] [Python Bootcamp: Beginner to Master Programming](https://www.udemy.com/course/python-programming-for-beginners-with-exercises/)
 - [ ] [Python for Beginners - Go from Java to Python in 100 Steps](https://www.udemy.com/course/learn-python-programming-for-java-programmers)
 - [ ] [Python For Beginners: Scripting Programming With Python 3](https://www.udemy.com/course/python-scripting/)
