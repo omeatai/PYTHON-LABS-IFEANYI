@@ -19,6 +19,7 @@
 
 - [x] [Django Python Web Framework for Beginners](https://www.udemy.com/course/navinreddy-django-basic-tutorial/)
 - [x] [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/) | [Notes](https://github.com/omeatai/DJANGO-LABS-IFEANYI/blob/main/labs/1.md)
+- [ ] [Django Rest Framework](https://www.udemy.com/course/djangorestframework/)
 - [ ] [Django for Python Developers](https://www.udemy.com/course/django-for-python-developers)
 - [ ] [Docker for Python Django Developers](https://www.udemy.com/course/docker-for-python-django-developers/)
 - [ ] [Django Rest Framework](https://www.udemy.com/course/djangorestframework/)
@@ -34,6 +35,7 @@
 - [ ] [Django for Python Developers](https://www.udemy.com/course/django-for-python-developers/)
 - [ ] [Docker for Python Django Developers](https://www.udemy.com/course/docker-for-python-django-developers/)
 - [ ] [AI with GitHub Copilot for Python & Django REST Developers](https://www.udemy.com/course/mastering-github-copilot-for-python-django-rest-developers/)
+- [ ] [Serverless using AWS Lambda for Python Developers](https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/)
 
 ### PYTHON TESTING & DESIGN
 
